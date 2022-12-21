@@ -10,16 +10,16 @@ function App() {
   return (
     <>
       <nav className="flex mb-4 h-12 sticky top-0">
-        <li className="list-none w-1/4 text-4xl bg-red-500">
+        <li className="list-none text-center w-1/4 text-4xl bg-red-500">
           <Link to="/">about</Link>
         </li>
-        <li className="w-1/4 text-4xl bg-yellow-500">
+        <li className="list-none text-center w-1/4 text-4xl bg-yellow-500">
           <Link to="code">code</Link>
         </li>
-        <li className="w-1/4 text-4xl bg-blue-500">
+        <li className="list-none text-center items-center w-1/4 text-4xl bg-blue-500">
           <Link to="design">design</Link>
         </li>
-        <li className="w-1/4 text-4xl bg-green-500">
+        <li className="list-none text-center w-1/4 text-4xl bg-green-500">
           <Link to="film">film</Link>
         </li>
       </nav>
