@@ -33,7 +33,7 @@ function App() {
     <div>
       <nav className="grid grid-cols-4 h-6 fixed w-full">
         <li className="flex items-center justify-center list-none text-1xl h-12 xs:text-2xl bg-yellow-500">
-          <Link to="code" onClick={() => setColour('#EAB308')}>
+          <Link to="/" onClick={() => setColour('#EAB308')}>
             Code
           </Link>
         </li>
