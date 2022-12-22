@@ -5,16 +5,28 @@ import AboutPage from './pages/AboutPage/AboutPage.tsx';
 import CodePage from './pages/CodePage/CodePage.tsx';
 import DesignPage from './pages/DesignPage/DesignPage.tsx';
 import FilmPage from './pages/FilmPage/FilmPage.tsx';
-import React from 'react';
-import { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import './Styles/App.css';
 
 function App() {
   //set's the default state background colour
-  const [color, setColour] = useState('#EF4444');
+  const [color, setColour] = useState('');
 
-  //set's the background colour of the body to the color of the current page on click
-  document.body.style.backgroundColor = color;
+  //set's the background colour to the colour stored in local storage on page load
+  useEffect(() => {
+    const data = localStorage.getItem('my-background-colour');
+    if (data) {
+      setColour(data);
+    }
+  }, []);
+
+  //stores the last set background colour in local storage
+  useEffect(() => {
+    localStorage.setItem(
+      'my-background-colour',
+      (document.body.style.backgroundColor = color)
+    );
+  });
 
   //returns the navigation bar and the routes
   return (
