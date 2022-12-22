@@ -11,7 +11,6 @@ import './Styles/App.css';
 function App() {
   //set's the default state background colour
   const [color, setColour] = useState('');
-
   //set's the background colour to the colour stored in local storage on page load
   useEffect(() => {
     const data = localStorage.getItem('my-background-colour');
