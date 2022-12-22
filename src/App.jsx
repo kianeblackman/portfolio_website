@@ -1,6 +1,5 @@
-import { useState } from 'react';
 import { Link, Route, Routes } from 'react-router-dom';
-import About from './components/AboutPage/AboutPage.tsx';
+import AboutPage from './components/AboutPage/AboutPage.tsx';
 import CodePage from './components/CodePage/CodePage.tsx';
 import DesignPage from './components/DesignPage/DesignPage.tsx';
 import FilmPage from './components/FilmPage/FilmPage.tsx';
@@ -24,7 +23,7 @@ function App() {
         </li>
       </nav>
       <Routes>
-        <Route path="/" element={<About />}></Route>
+        <Route path="/" element={<AboutPage />}></Route>
         <Route path="code" element={<CodePage />}></Route>
         <Route path="design" element={<DesignPage />}></Route>
         <Route path="film" element={<FilmPage />}></Route>
