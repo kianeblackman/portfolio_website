@@ -8,18 +8,18 @@ import './Styles/App.css';
 
 function App() {
   return (
-    <div className="w-full h-screen">
-      <nav className="flex h-12 fixed w-full">
-        <li className="list-none text-center w-1/4 text-4xl bg-red-500">
+    <div>
+      <nav className="grid grid-cols-1 xs:grid-cols-4 h-12 fixed w-full">
+        <li className="list-none text-center text-1xl h-12 xs:text-3xl bg-red-500">
           <Link to="about">About</Link>
         </li>
-        <li className="list-none text-center w-1/4 text-4xl bg-yellow-500">
+        <li className="list-none text-center text-1xl h-12 xs:text-3xl bg-yellow-500">
           <Link to="code">Code</Link>
         </li>
-        <li className="list-none text-center w-1/4 text-4xl bg-blue-500">
+        <li className="list-none text-center text-1xl h-12 xs:text-3xl bg-blue-500">
           <Link to="design">Design</Link>
         </li>
-        <li className="list-none text-center w-1/4 text-4xl bg-green-500">
+        <li className="list-none text-center text-1xl h-12 xs:text-3xl bg-green-500">
           <Link to="film">Film</Link>
         </li>
       </nav>
