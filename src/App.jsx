@@ -11,7 +11,14 @@ import CodePage from './pages/CodePage/CodePage';
 import DesignPage from './pages/DesignPage/DesignPage';
 import FilmPage from './pages/FilmPage/FilmPage';
 
-//Project imports
+//Design project imports
+import MammalsMoo from './pages/DesignPage/projects/MammalsMoo';
+import CktrlRobyn from './pages/DesignPage/projects/CktrlRobyn';
+import MediaPlanet from './pages/DesignPage/projects/MediaPlanet';
+import KingstonGraphicsWeekend from './pages/DesignPage/projects/KingstonGraphicsWeekend';
+import ToiletRollRoll from './pages/DesignPage/projects/ToiletRollRoll';
+
+//Film project imports
 import Joyride from './pages/FilmPage/projects/Joyride';
 import WreckedCare from './pages/FilmPage/projects/WreckedCare';
 import StrawsSuck from './pages/FilmPage/projects/StrawsSuck';
@@ -68,6 +75,17 @@ function App() {
         <Route path="/" exact element={<AboutPage />}></Route>
         <Route path="/code" element={<CodePage />}></Route>
         <Route path="/design" element={<DesignPage />}></Route>
+        <Route path="/design/mammals-moo" element={<MammalsMoo />}></Route>
+        <Route path="/design/cktrl-robyn" element={<CktrlRobyn />}></Route>
+        <Route path="/design/media-planet" element={<MediaPlanet />}></Route>
+        <Route
+          path="/design/toilet-roll-roll"
+          element={<ToiletRollRoll />}
+        ></Route>
+        <Route
+          path="/design/kingston-graphics-weekend"
+          element={<KingstonGraphicsWeekend />}
+        ></Route>
         <Route path="/film" element={<FilmPage />}></Route>
         <Route path="/film/joyride" element={<Joyride />}></Route>
         <Route path="/film/2-wrecked-2-care" element={<WreckedCare />}></Route>

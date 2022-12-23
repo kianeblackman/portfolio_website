@@ -1,5 +1,10 @@
 import React from 'react';
 
-export default function Project1() {
-  return <div>Project 1</div>;
+export default function MammalsMoo() {
+  return (
+    <div className="p-6 pt-16 w-full xs:w-3/4">
+      <h1 className="text-5xl xs:text-7xl">Mammals Moo</h1>
+      <h2 className="text-2xl xs:text-3xl">Short story collection...</h2>
+    </div>
+  );
 }
