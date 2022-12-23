@@ -1,10 +1,10 @@
-import React from 'react';
+// Description: About page
 
 export default function AboutPage() {
   return (
     <div className="p-6 pt-16">
-      <div className="w-3/4">
-        <h1 className="text-6xl">Hello, I'm Kiane Blackman</h1>
+      <div className="w-full xs:w-3/4">
+        <h1 className="text-4xl xs:text-6xl">Hello, I'm Kiane Blackman</h1>
         <h2 className="text-2xl">
           I’m a <span className="underline">developer</span>,{' '}
           <span className="underline">designer</span>,{' '}
@@ -14,7 +14,7 @@ export default function AboutPage() {
         </h2>
       </div>
       <br></br>
-      <div className="w-1/2">
+      <div className="xs:w-1/2">
         <h2 className="text-2xl underline">My Story</h2>
         <h3>
           I’ve always loved problem solving. It’s been the common thread
