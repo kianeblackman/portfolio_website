@@ -4,8 +4,8 @@ export default function AboutPage() {
   return (
     <div className="p-6 pt-16">
       <div className="w-full xs:w-3/4">
-        <h1 className="text-4xl xs:text-6xl">Hello, I'm Kiane Blackman</h1>
-        <h2 className="text-2xl">
+        <h1 className="text-5xl xs:text-7xl">Hello, I'm Kiane Blackman</h1>
+        <h2 className="text-2xl xs:text-3xl">
           I’m a <span className="underline">developer</span>,{' '}
           <span className="underline">designer</span>,{' '}
           <span className="underline">filmmaker</span> and all round a pretty
@@ -15,8 +15,8 @@ export default function AboutPage() {
       </div>
       <br></br>
       <div className="xs:w-1/2">
-        <h2 className="text-2xl underline">My Story</h2>
-        <h3>
+        <h2 className="text-3xl underline">My Story</h2>
+        <h3 className="text-xl">
           I’ve always loved problem solving. It’s been the common thread
           throughout all of the different career paths I’ve taken. I enjoy
           trying things I’ve never tried before, jumping into projects and
@@ -24,7 +24,7 @@ export default function AboutPage() {
           <br></br>
           <br></br>
           Here’s a video of me lituraly jumping into something I’d only been
-          learning for three hours:
+          learning for an hour:
           <br></br>
           <br></br>
           <iframe
@@ -48,38 +48,42 @@ export default function AboutPage() {
           begin a new career as a Software Developer.
         </h3>
         <br></br>
-        <h2 className="text-2xl underline">Work</h2>
-        <h3>
-          Business Owner (Feb 2022-Present) at Rooted and Booted<br></br>
-          Graphic Designer (2015-Present) Freelancer<br></br>
-          Gardener (Aug 2019 - Mar 2022) at The Dab Hand<br></br>
-          Project Coordinator (Oct 2020 - May 2021) at London Business
-          Partnership
+        <h2 className="text-3xl underline">Work</h2>
+        <h3 className="text-xl">
+          Business Owner at Rooted and Booted (Feb 2022-Present)<br></br>
+          Graphic Designer, Freelancer (2015-Present)<br></br>
+          Gardener at The Dab Hand (Aug 2019 - Mar 2022)<br></br>
+          Project Coordinator at London Business Partnership (Oct 2020 - May
+          2021)
           <br></br>
-          Business Owner (2020) at Box.Din<br></br>
-          Lead Designer (Jul 2018-Nov 2019) at Mediaplanet<br></br>
-          Designer (2016-2018) at Springboard<br></br>
-          Event photographer and filmmaker (2016-2018) at Togada Studios
+          Business Owner at Box.Din (2020)<br></br>
+          Lead Designer at Mediaplanet (Jul 2018-Nov 2019)<br></br>
+          Designer at Springboard (2016-2018)<br></br>
+          Event photographer and filmmaker at Togada Studios (2016-2018)
         </h3>
         <br></br>
-        <h2 className="text-2xl underline">Programs</h2>
-        <h3>
+        <h2 className="text-3xl underline">Programs</h2>
+        <h3 className="text-xl">
           HTML — CSS — Tailwind CSS — JavaScript — React — UI Libaries — Vite —
           Git — NodeJS — Express — PostgreSQL — Jest — Cypress — Typescript —
           Auth0 — Accessibility Tools
+          <br></br>
+          <br></br>
+          InDesign — Figma — Photoshop — Illustrator — Lightroom — PremierePro —
+          AfterEffects
         </h3>
         <br></br>
-        <h2 className="text-2xl underline">Education</h2>
-        <h3>
+        <h2 className="text-3xl underline">Education</h2>
+        <h3 className="text-xl">
           Coding Bootcamp at School of Code (Oct 2022-Feb2023)<br></br>
-          First Class Honors, Graphic Design BA Hons at Kingston University
-          (2016-2019)<br></br>
+          First Class, Graphic Design BA Hons at Kingston University (2016-2019)
+          <br></br>
           Art & Design Foundation Course at Sussex Downs Collage (2014- 2015)
           <br></br>
         </h3>
         <br></br>
-        <h2 className="text-2xl underline">Contact</h2>
-        <h3>
+        <h2 className="text-3xl underline">Contact</h2>
+        <h3 className="text-xl">
           Softwear Developer<br></br>
           kianeblackman@gmail.com<br></br>
           +44 (0) 7736 515 571<br></br>
