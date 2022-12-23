@@ -1,7 +1,9 @@
 // Description: Jargogle project page
 
+// Imports
 import React from 'react';
 
+// Project component
 export default function Jargogle() {
   return (
     <div className="p-6 pt-16 w-full xs:w-3/4">

@@ -1,6 +1,10 @@
-import React from 'react'
-import { Link, Route, Routes } from 'react-router-dom';
+// Description: this page lists all the design projects
 
+// Imports
+import React from 'react'
+import { Link } from 'react-router-dom';
+
+// Page component
 export default function DesignPage() {
   return (
     <div>

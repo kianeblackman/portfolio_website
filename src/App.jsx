@@ -1,36 +1,36 @@
 // Description: This is the main component of the app. It contains the navigation bar and the routes.
 
-//Additional imports
+// Additional imports
 import { Link, Route, Routes } from 'react-router-dom';
 import React, { useState, useEffect } from 'react';
 import './Styles/App.css';
 
-//Page imports
-import AboutPage from './pages/AboutPage/AboutPage';
-import CodePage from './pages/CodePage/CodePage';
-import DesignPage from './pages/DesignPage/DesignPage';
-import FilmPage from './pages/FilmPage/FilmPage';
+// Page imports
+import AboutPage from './pages/AboutPage/AboutPage.jsx';
+import CodePage from './pages/CodePage/CodePage.jsx';
+import DesignPage from './pages/DesignPage/DesignPage.jsx';
+import FilmPage from './pages/FilmPage/FilmPage.jsx';
 
-//Design project imports
-import MammalsMoo from './pages/DesignPage/projects/MammalsMoo';
-import CktrlRobyn from './pages/DesignPage/projects/CktrlRobyn';
-import MediaPlanet from './pages/DesignPage/projects/MediaPlanet';
-import KingstonGraphicsWeekend from './pages/DesignPage/projects/KingstonGraphicsWeekend';
-import ToiletRollRoll from './pages/DesignPage/projects/ToiletRollRoll';
+// Design project imports
+import MammalsMoo from './pages/DesignPage/projects/MammalsMoo.jsx';
+import CktrlRobyn from './pages/DesignPage/projects/CktrlRobyn.jsx';
+import MediaPlanet from './pages/DesignPage/projects/MediaPlanet.jsx';
+import KingstonGraphicsWeekend from './pages/DesignPage/projects/KingstonGraphicsWeekend.jsx';
+import ToiletRollRoll from './pages/DesignPage/projects/ToiletRollRoll.jsx';
 
-//Film project imports
-import Joyride from './pages/FilmPage/projects/Joyride';
-import WreckedCare from './pages/FilmPage/projects/WreckedCare';
-import StrawsSuck from './pages/FilmPage/projects/StrawsSuck';
-import Ablert from './pages/FilmPage/projects/Ablert';
-import TakeAChance from './pages/FilmPage/projects/TakeAChance';
-import Jargogle from './pages/FilmPage/projects/Jargogle';
+// Film project imports
+import Joyride from './pages/FilmPage/projects/Joyride.jsx';
+import WreckedCare from './pages/FilmPage/projects/WreckedCare.jsx';
+import StrawsSuck from './pages/FilmPage/projects/StrawsSuck.jsx';
+import Ablert from './pages/FilmPage/projects/Ablert.jsx';
+import TakeAChance from './pages/FilmPage/projects/TakeAChance.jsx';
+import Jargogle from './pages/FilmPage/projects/Jargogle.jsx';
 
 function App() {
-  //set's the default state background colour
+  // Set's the default state background colour
   const [color, setColour] = useState('');
 
-  //set's the background colour to the colour stored in local storage on page refresh
+  // Set's the background colour to the colour stored in local storage on page refresh
   useEffect(() => {
     const data = localStorage.getItem('my-background-colour');
     if (data) {
@@ -38,15 +38,15 @@ function App() {
     }
   }, []);
 
-  //sets the background colour to the colour passed in
+  // Sets the background colour to the colour passed in
   let lsColour = (document.body.style.backgroundColor = color);
 
-  //stores the last set background colour in local storage
+  // Stores the last set background colour in local storage
   useEffect(() => {
     localStorage.setItem('my-background-colour', lsColour);
   });
 
-  //returns the navigation bar and the routes
+  // Returns the navigation bar and the all app routes
   return (
     <div>
       <nav className="grid grid-cols-4 h-6 fixed w-full">

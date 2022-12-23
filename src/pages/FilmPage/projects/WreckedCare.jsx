@@ -1,7 +1,9 @@
 // Description: 2 Wrecked 2 Care project page
 
+// Imports
 import React from 'react';
 
+// Project component
 export default function WreckedCare() {
   return (
     <div className="p-6 pt-16 w-full xs:w-3/4">

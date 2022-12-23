@@ -1,7 +1,9 @@
 // Description: Ablert project page
 
+// Imports
 import React from 'react';
 
+// Project component
 export default function Ablert() {
   return (
     <div className="p-6 pt-16 w-full xs:w-3/4">

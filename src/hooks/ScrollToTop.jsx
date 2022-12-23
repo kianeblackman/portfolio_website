@@ -1,3 +1,6 @@
+// Description: This hook is used to scroll to the top of the page on route change
+
+// Imports
 import { useEffect } from 'react';
 import { useLocation } from 'react-router-dom';
 
