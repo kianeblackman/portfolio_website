@@ -6,14 +6,16 @@ export default function AboutPage() {
       <div className="w-3/4">
         <h1 className="text-6xl">Hello, I'm Kiane Blackman</h1>
         <h2 className="text-2xl">
-          I’m a designer, developer, filmmaker and all round a pretty creative
-          fellah. Welcome to my portfolio. Grab a drink or a snack, take your
-          time and enjoy!
+          I’m a <span className="underline">developer</span>,{' '}
+          <span className="underline">designer</span>,{' '}
+          <span className="underline">filmmaker</span> and all round a pretty
+          creative fellah. Welcome to my portfolio. Grab a drink or a snack,
+          take your time and enjoy!
         </h2>
       </div>
       <br></br>
       <div className="w-1/2">
-        <h2 className="text-2xl">My Story</h2>
+        <h2 className="text-2xl underline">My Story</h2>
         <h3>
           I’ve always loved problem solving. It’s been the common thread
           throughout all of the different career paths I’ve taken. I enjoy
@@ -25,9 +27,13 @@ export default function AboutPage() {
           learning for three hours:
           <br></br>
           <br></br>
-          <div className="bg-white h-80"></div>
+          <iframe
+            className="w-full aspect-video "
+            src="https://www.youtube.com/embed/kf4WRWkapfk"
+          ></iframe>
           <br></br>
-          If you’re not convinced by that, in September 2022 I took another jump
+          If you’re not convinced by that, in{' '}
+          <span className="underline">September 2022</span> I took another jump
           into something that I’d been wanting to tackel for years, coding.
           Throughout my different careers I’ve been interested in learning how
           to code but lack of time and fear of wasted time was a constant
@@ -42,7 +48,7 @@ export default function AboutPage() {
           begin a new career as a Software Developer.
         </h3>
         <br></br>
-        <h2 className="text-2xl">Work</h2>
+        <h2 className="text-2xl underline">Work</h2>
         <h3>
           Business Owner (Feb 2022-Present) at Rooted and Booted<br></br>
           Graphic Designer (2015-Present) Freelancer<br></br>
@@ -56,14 +62,14 @@ export default function AboutPage() {
           Event photographer and filmmaker (2016-2018) at Togada Studios
         </h3>
         <br></br>
-        <h2 className="text-2xl">Programs</h2>
+        <h2 className="text-2xl underline">Programs</h2>
         <h3>
-          HTMM — CSS — Tailwind CSS — JavaScript — React — UI Libaries — Vite —
+          HTML — CSS — Tailwind CSS — JavaScript — React — UI Libaries — Vite —
           Git — NodeJS — Express — PostgreSQL — Jest — Cypress — Typescript —
           Auth0 — Accessibility Tools
         </h3>
         <br></br>
-        <h2 className="text-2xl">Education</h2>
+        <h2 className="text-2xl underline">Education</h2>
         <h3>
           Coding Bootcamp at School of Code (Oct 2022-Feb2023)<br></br>
           First Class Honors, Graphic Design BA Hons at Kingston University
@@ -72,7 +78,7 @@ export default function AboutPage() {
           <br></br>
         </h3>
         <br></br>
-        <h2 className="text-2xl">Contact</h2>
+        <h2 className="text-2xl underline">Contact</h2>
         <h3>
           Softwear Developer<br></br>
           kianeblackman@gmail.com<br></br>
