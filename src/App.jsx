@@ -11,7 +11,8 @@ import './Styles/App.css';
 function App() {
   //set's the default state background colour
   const [color, setColour] = useState('');
-  //set's the background colour to the colour stored in local storage on page load
+
+  //set's the background colour to the colour stored in local storage on page refresh
   useEffect(() => {
     const data = localStorage.getItem('my-background-colour');
     if (data) {
@@ -19,12 +20,12 @@ function App() {
     }
   }, []);
 
+  //sets the background colour to the colour passed in
+  let lsColour = (document.body.style.backgroundColor = color);
+
   //stores the last set background colour in local storage
   useEffect(() => {
-    localStorage.setItem(
-      'my-background-colour',
-      (document.body.style.backgroundColor = color)
-    );
+    localStorage.setItem('my-background-colour', lsColour);
   });
 
   //returns the navigation bar and the routes
