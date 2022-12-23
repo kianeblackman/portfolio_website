@@ -1,50 +1,32 @@
 
-# Portfolio Website
+# 🚀 Portfolio Website
 
-A brief description of what this project does and who it's for
+### Hello, I'm Kiane Blackman. I’m a developer, designer, filmmaker and all round a pretty creative fellah. Welcome to my portfolio. Grab a drink or a snack, take your time and enjoy!
 
+## 🎨 Color Reference
 
-## 🚀 About Me
-I'm a full stack developer...
+| Color             | Hex                                            |
+| ----------------- | ---------------------------------------------- |
+| #EF4444 | ![blue](https://readme-swatches.vercel.app/EF4444) |
+| #22C55E | ![blue](https://readme-swatches.vercel.app/22C55E) |
+| #3B82F6 | ![blue](https://readme-swatches.vercel.app/3B82F6) |
+| #EAB308 | ![blue](https://readme-swatches.vercel.app/EAB308) |
 
-## Color Reference
+## 👨🏾‍💻 Tech Stack
+[![figma](https://img.shields.io/badge/figma-04C47B?style=for-the-badge&logo=figma&logoColor=white)](https://vitejs.dev/)
+[![tailwind css](https://img.shields.io/badge/tailwindcss-36BCFA?style=for-the-badge&logo=tailwindcss&logoColor=white)](https://vitejs.dev/)
+[![css 3](https://img.shields.io/badge/css3-254DE2?style=for-the-badge&logo=css3&logoColor=white)](https://vitejs.dev/)
+[![javascript](https://img.shields.io/badge/javascript-FEC11A?style=for-the-badge&logo=javascript&logoColor=black)](https://vitejs.dev/)
+[![react](https://img.shields.io/badge/react-2D2D2D?style=for-the-badge&logo=react&logoColor=white)](https://vitejs.dev/)
+[![vite](https://img.shields.io/badge/vite-BC36FD?style=for-the-badge&logo=vite&logoColor=white)](https://vitejs.dev/)
+[![netlify](https://img.shields.io/badge/netlify-115482?style=for-the-badge&logo=netlify&logoColor=white)](https://vitejs.dev/)
 
-| Color             | Hex                                                                |
-| ----------------- | ------------------------------------------------------------------ |
-| Example Color | ![#0a192f](https://via.placeholder.com/10/0a192f?text=+) #0a192f |
-| Example Color | ![#f8f8f8](https://via.placeholder.com/10/f8f8f8?text=+) #f8f8f8 |
-| Example Color | ![#00b48a](https://via.placeholder.com/10/00b48a?text=+) #00b48a |
-| Example Color | ![#00d1a0](https://via.placeholder.com/10/00b48a?text=+) #00d1a0 |
+## 💬 Feedback
 
-
-## Deployment
-
-To deploy this project run
-
-```bash
-  npm run deploy
-```
-
-
-## Feedback
-
-If you have any feedback, please reach out to us at fake@fake.com
-
-
-## Screenshots
-
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
-
-
-## **Tech Stack**
-
-
-**Server:** Node, Express
-
+If you have any feedback, please reach out to me at kianeblackman@gmail.com
 
 ## 🔗 Further Links
-[![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://katherineoelsner.com/)
-[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/)
-
-[![twitter](https://img.shields.io/badge/twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/)
+[![portfolio](https://img.shields.io/badge/my_portfolio-EF4444?style=for-the-badge&logo=ko-fi&logoColor=white)](https://kianeblackman.com/)
+[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/kiane-gucher-blackman-646286251/)
+[![instagram](https://img.shields.io/badge/instagram-DE00E4?style=for-the-badge&logo=instagram&logoColor=white)](https://twitter.com/)
 
