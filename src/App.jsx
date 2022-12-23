@@ -1,10 +1,10 @@
 // Description: This is the main component of the app. It contains the navigation bar and the routes.
 
 import { Link, Route, Routes } from 'react-router-dom';
-import AboutPage from './pages/AboutPage/AboutPage.tsx';
-import CodePage from './pages/CodePage/CodePage.tsx';
-import DesignPage from './pages/DesignPage/DesignPage.tsx';
-import FilmPage from './pages/FilmPage/FilmPage.tsx';
+import AboutPage from './pages/AboutPage/AboutPage';
+import CodePage from './pages/CodePage/CodePage';
+import DesignPage from './pages/DesignPage/DesignPage';
+import FilmPage from './pages/FilmPage/FilmPage';
 import React, { useState, useEffect } from 'react';
 import './Styles/App.css';
 
