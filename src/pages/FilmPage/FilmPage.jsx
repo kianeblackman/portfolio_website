@@ -1,10 +1,10 @@
-// Description: This is the FilmPage component. It is the page that displays all the films.
+// Description: this page lists all the film projects
 
-//Imports
+// Imports
 import React from 'react'
 import { Link } from 'react-router-dom';
 
-//Page component
+// Page component
 export default function FilmPage() {
   return (
     <div>

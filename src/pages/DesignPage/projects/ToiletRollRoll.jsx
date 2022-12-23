@@ -1,5 +1,9 @@
+// Description: Kingston Graphics Weekend project page
+
+// Imports
 import React from 'react';
 
+// Project component
 export default function ToiletRollRoll() {
   return (
     <div className="p-6 pt-16 w-full xs:w-3/4">
