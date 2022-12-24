@@ -62,16 +62,41 @@ export default function AboutPage() {
           Event photographer and filmmaker at Togada Studios (2016-2018)
         </h3>
         <br></br>
-        <h2 className="text-3xl underline">Programs</h2>
-        <h3 className="text-xl">
-          HTML — CSS — Tailwind CSS — JavaScript — React — UI Libaries — Vite —
-          Git — NodeJS — Express — PostgreSQL — Jest — Cypress — Typescript —
-          Auth0 — Accessibility Tools
-          <br></br>
-          <br></br>
-          InDesign — Figma — Photoshop — Illustrator — Lightroom — PremierePro —
-          AfterEffects
-        </h3>
+        <h2 className="text-3xl underline">Tec Stack</h2>
+        <h2 className="text-xl">Languages</h2>
+        <div className="flex gap-3 pt-3">
+          <img src="https://img.shields.io/badge/javascript-FEC11A?style=for-the-badge&logo=javascript&logoColor=black"></img>
+          <img src="https://img.shields.io/badge/typescript-2D73BE?style=for-the-badge&logo=typescript&logoColor=white"></img>
+          <img src="https://img.shields.io/badge/html-D94924?style=for-the-badge&logo=html5&logoColor=white"></img>
+          <img src="https://img.shields.io/badge/css-254DE2?style=for-the-badge&logo=css3&logoColor=white"></img>
+          <img src="https://img.shields.io/badge/sql-316289?style=for-the-badge&logo=postgresql&logoColor=white"></img>
+        </div>
+        <h2 className="text-xl">Creative</h2>
+        <div className="flex gap-3 pt-3">
+          <img src="https://img.shields.io/badge/miro-55536C?style=for-the-badge&logo=miro&logoColor=white"></img>
+          <img src="https://img.shields.io/badge/figma-04C47B?style=for-the-badge&logo=figma&logoColor=white"></img>
+          <img src="https://img.shields.io/badge/photoshop-24A5FE?style=for-the-badge&logo=adobephotoshop&logoColor=white"></img>
+          <img src="https://img.shields.io/badge/indesign-F12E62?style=for-the-badge&logo=adobeindesign&logoColor=white"></img>
+          <img src="https://img.shields.io/badge/illustrator-F49106?style=for-the-badge&logo=adobeillustrator&logoColor=white"></img>
+          <img src="https://img.shields.io/badge/premierepro-9190F3?style=for-the-badge&logo=adobepremierepro&logoColor=white"></img>
+          <img src="https://img.shields.io/badge/aftereffects-6470F0?style=for-the-badge&logo=adobeaftereffects&logoColor=white"></img>
+        </div>
+        <h2 className="text-xl">Other</h2>
+        <div className="flex gap-3 pt-3">
+          <img src="https://img.shields.io/badge/javascript-FEC11A?style=for-the-badge&logo=javascript&logoColor=black"></img>
+          <img src="https://img.shields.io/badge/figma-04C47B?style=for-the-badge&logo=figma&logoColor=white"></img>
+          <img src="https://img.shields.io/badge/figma-04C47B?style=for-the-badge&logo=figma&logoColor=white"></img>
+          <img src="https://img.shields.io/badge/figma-04C47B?style=for-the-badge&logo=figma&logoColor=white"></img>
+          <img src="https://img.shields.io/badge/figma-04C47B?style=for-the-badge&logo=figma&logoColor=white"></img>
+          <img src="https://img.shields.io/badge/figma-04C47B?style=for-the-badge&logo=figma&logoColor=white"></img>
+          <img src="https://img.shields.io/badge/javascript-FEC11A?style=for-the-badge&logo=javascript&logoColor=black"></img>
+          <img src="https://img.shields.io/badge/figma-04C47B?style=for-the-badge&logo=figma&logoColor=white"></img>
+          <img src="https://img.shields.io/badge/figma-04C47B?style=for-the-badge&logo=figma&logoColor=white"></img>
+          <img src="https://img.shields.io/badge/figma-04C47B?style=for-the-badge&logo=figma&logoColor=white"></img>
+          <img src="https://img.shields.io/badge/figma-04C47B?style=for-the-badge&logo=figma&logoColor=white"></img>
+          <img src="https://img.shields.io/badge/figma-04C47B?style=for-the-badge&logo=figma&logoColor=white"></img>
+          <img src="https://img.shields.io/badge/figma-04C47B?style=for-the-badge&logo=figma&logoColor=white"></img>
+        </div>
         <br></br>
         <h2 className="text-3xl underline">Education</h2>
         <h3 className="text-xl">
@@ -87,7 +112,7 @@ export default function AboutPage() {
           Softwear Developer<br></br>
           kianeblackman@gmail.com<br></br>
           +44 (0) 7736 515 571<br></br>
-          @kiane_blackman
+          @kianeblackman @kiane_blackman
         </h3>
       </div>
     </div>
