@@ -26,6 +26,11 @@ import Ablert from './pages/FilmPage/projects/Ablert.jsx';
 import TakeAChance from './pages/FilmPage/projects/TakeAChance.jsx';
 import Jargogle from './pages/FilmPage/projects/Jargogle.jsx';
 
+// Code project imports
+import Trove from './pages/CodePage/projects/Trove.jsx';
+import ToDoList from './pages/CodePage/projects/ToDoList.jsx';
+import Portfolio from './pages/CodePage/projects/Portfolio.jsx';
+
 function App() {
   // Set's the default state background colour
   const [color, setColour] = useState('');
@@ -50,8 +55,8 @@ function App() {
   return (
     <div>
       <nav className="grid grid-cols-4 h-6 fixed w-full">
-        <li className="flex items-center justify-center list-none text-1xl h-12 xs:text-2xl bg-yellow-500">
-          <Link to="/code" onClick={() => setColour('#EAB308')}>
+        <li className="flex items-center justify-center list-none text-1xl h-12 xs:text-2xl bg-[#EF4444]">
+          <Link to="/code" onClick={() => setColour('#EF4444')}>
             Code
           </Link>
         </li>
@@ -65,8 +70,8 @@ function App() {
             Film
           </Link>
         </li>
-        <li className="flex items-center justify-center text-ellipsis list-none text-1xl h-12 xs:text-2xl bg-red-500">
-          <Link to="/" onClick={() => setColour('#EF4444')}>
+        <li className="flex items-center justify-center text-ellipsis list-none text-1xl h-12 xs:text-2xl bg-[#FEC11A]">
+          <Link to="/" onClick={() => setColour('#FEC11A')}>
             About
           </Link>
         </li>
@@ -74,6 +79,9 @@ function App() {
       <Routes>
         <Route path="/" exact element={<AboutPage />}></Route>
         <Route path="/code" element={<CodePage />}></Route>
+        <Route path="/code/trove" element={<Trove />}></Route>
+        <Route path="/code/to-do-list" element={<ToDoList />}></Route>
+        <Route path="/code/portfolio" element={<Portfolio />}></Route>
         <Route path="/design" element={<DesignPage />}></Route>
         <Route path="/design/mammals-moo" element={<MammalsMoo />}></Route>
         <Route path="/design/cktrl-robyn" element={<CktrlRobyn />}></Route>
