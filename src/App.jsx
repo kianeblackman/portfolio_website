@@ -55,6 +55,11 @@ function App() {
   return (
     <div>
       <nav className="grid grid-cols-4 h-6 fixed w-full">
+        <li className="flex items-center justify-center text-ellipsis list-none text-1xl h-12 xs:text-2xl bg-[#FEC11A]">
+          <Link to="/" onClick={() => setColour('#FEC11A')}>
+            About
+          </Link>
+        </li>
         <li className="flex items-center justify-center list-none text-1xl h-12 xs:text-2xl bg-[#EF4444]">
           <Link to="/code" onClick={() => setColour('#EF4444')}>
             Code
@@ -68,11 +73,6 @@ function App() {
         <li className="flex items-center justify-center list-none text-1xl h-12 xs:text-2xl bg-green-500">
           <Link to="/film" onClick={() => setColour('#22C55E')}>
             Film
-          </Link>
-        </li>
-        <li className="flex items-center justify-center text-ellipsis list-none text-1xl h-12 xs:text-2xl bg-[#FEC11A]">
-          <Link to="/" onClick={() => setColour('#FEC11A')}>
-            About
           </Link>
         </li>
       </nav>
