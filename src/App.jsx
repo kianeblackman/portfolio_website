@@ -60,7 +60,7 @@ function App() {
             About
           </Link>
         </li>
-        <li className="flex items-center justify-center list-none text-1xl h-12 xs:text-2xl bg-[#EF4444]">
+        <li className="flex items-center justify-center list-none text-1xl h-12 xs:text-2xl bg-red-500">
           <Link to="/code" onClick={() => setColour('#EF4444')}>
             Code
           </Link>
@@ -71,7 +71,7 @@ function App() {
           </Link>
         </li>
         <li className="flex items-center justify-center list-none text-1xl h-12 xs:text-2xl bg-green-500">
-          <Link to="/film" onClick={() => setColour('#22C55E')}>
+          <Link to="/film" onClick={() => setColour('#22C564')}>
             Film
           </Link>
         </li>
