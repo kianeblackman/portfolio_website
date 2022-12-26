@@ -1,23 +1,32 @@
 // Description: this page lists all the film projects
 
 // Imports
-import React from 'react'
+import React from 'react';
 import { Link } from 'react-router-dom';
 
 // Page component
 export default function FilmPage() {
   return (
     <div>
-      <ul className="pt-12">
-        <div className="grid grid-cols-1 xs:grid-cols-2 gap-6 w-full p-6 px-6 pb-6">
-        <li className="bg-white h-80"><Link to="/film/joyride">Rasharn Powell - Joyride</Link></li>
-        <li className="bg-white h-80"><Link to="/film/2-wrecked-2-care">CMAT - 2 Wrecked 2 Care</Link></li>
-        <li className="bg-white h-80"><Link to="/film/straws-suck">Straws Suck</Link></li>
-        <li className="bg-white h-80"><Link to="/film/&albert">& Albert</Link></li>
-        <li className="bg-white h-80"><Link to="/film/take-a-chance">Take a Chance</Link></li>
-        <li className="bg-white h-80"><Link to="/film/jargogle">Jargogle</Link></li>
+      <ul class="pt-12">
+        <div class="grid grid-cols-1 xs:grid-cols-3 gap-6 w-full p-6 px-6 pb-6">
+          <Link to="/film/joyride">
+            <img src="/images/joyride-cover.jpg" />
+          </Link>
+          <Link to="/film/2-wrecked-2-care">
+            <img src="/images/cmat-2wrecked2care-cover.jpg" />
+          </Link>
+          <Link to="/film/straws-suck">
+            <img src="/images/straws-suck-cover.jpg" />
+          </Link>
+          <Link to="/film/&albert">
+            <img src="/images/albert-cover.jpg" />
+          </Link>
+          <Link to="/film/take-a-chance">
+            <img src="/images/take-a-chance-cover.jpg" />
+          </Link>
         </div>
       </ul>
     </div>
-  )
+  );
 }

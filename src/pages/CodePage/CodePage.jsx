@@ -5,16 +5,16 @@ export default function CodePage() {
   return (
     <div>
       <ul className="pt-12">
-        <div className="grid grid-cols-1 xs:grid-cols-2 gap-6 w-full p-6">
-          <li className="bg-white h-80">
-            <Link to="trove">Trove</Link>
-          </li>
-          <li className="bg-white h-80">
-            <Link to="to-do-list">To Do List</Link>
-          </li>
-          <li className="bg-white h-80">
-            <Link to="portfolio">Portfolio</Link>
-          </li>
+        <div class="grid grid-cols-1 xs:grid-cols-3 gap-6 w-full p-6 px-6 pb-6">
+          <Link to="/code/">
+            <img src="/images/trove-cover.jpg" />
+          </Link>
+          <Link to="/code/">
+            <img src="/images/to-do-list-cover.jpg" />
+          </Link>
+          <Link to="/code/">
+            <img src="/images/how-long-until-cover.jpg" />
+          </Link>
         </div>
       </ul>
     </div>
