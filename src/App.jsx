@@ -17,6 +17,7 @@ import CktrlRobyn from './pages/DesignPage/projects/CktrlRobyn.jsx';
 import MediaPlanet from './pages/DesignPage/projects/MediaPlanet.jsx';
 import KingstonGraphicsWeekend from './pages/DesignPage/projects/KingstonGraphicsWeekend.jsx';
 import ToiletRollRoll from './pages/DesignPage/projects/ToiletRollRoll.jsx';
+import RootedAndBooted from './pages/DesignPage/projects/RootedAndBooted.jsx';
 
 // Film project imports
 import Joyride from './pages/FilmPage/projects/Joyride.jsx';
@@ -93,6 +94,10 @@ function App() {
         <Route
           path="/design/kingston-graphics-weekend"
           element={<KingstonGraphicsWeekend />}
+        ></Route>
+        <Route
+          path="/design/rooted-and-booted"
+          element={<RootedAndBooted />}
         ></Route>
         <Route path="/film" element={<FilmPage />}></Route>
         <Route path="/film/joyride" element={<Joyride />}></Route>

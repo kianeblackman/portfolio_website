@@ -8,8 +8,8 @@ import { Link } from 'react-router-dom';
 export default function DesignPage() {
   return (
     <div>
-      <ul class="pt-12">
-        <div class="grid grid-cols-1 xs:grid-cols-3 gap-6 w-full p-6 px-6 pb-6">
+      <ul className="pt-12">
+        <div className="grid grid-cols-1 xs:grid-cols-3 gap-6 w-full p-6 px-6 pb-6">
           <Link to="/design/mammals-moo">
             <img src="/images/mammals-moo-cover.jpg" />
           </Link>
@@ -23,6 +23,9 @@ export default function DesignPage() {
             <img src="/images/kingston-graphics-weekend-cover.jpg" />
           </Link>
           <Link to="/design/toilet-roll-roll">
+            <img src="/images/toilet-roll-roll-cover.jpg" />
+          </Link>
+          <Link to="/design/rooted-and-booted">
             <img src="/images/toilet-roll-roll-cover.jpg" />
           </Link>
         </div>

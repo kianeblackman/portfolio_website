@@ -5,7 +5,7 @@ export default function CodePage() {
   return (
     <div>
       <ul className="pt-12">
-        <div class="grid grid-cols-1 xs:grid-cols-3 gap-6 w-full p-6 px-6 pb-6">
+        <div className="grid grid-cols-1 xs:grid-cols-3 gap-6 w-full p-6 px-6 pb-6">
           <Link to="/code/">
             <img src="/images/trove-cover.jpg" />
           </Link>
