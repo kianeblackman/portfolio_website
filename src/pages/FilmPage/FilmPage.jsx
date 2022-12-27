@@ -8,8 +8,8 @@ import { Link } from 'react-router-dom';
 export default function FilmPage() {
   return (
     <div>
-      <ul class="pt-12">
-        <div class="grid grid-cols-1 xs:grid-cols-3 gap-6 w-full p-6 px-6 pb-6">
+      <ul className="pt-12">
+        <div className="grid grid-cols-1 xs:grid-cols-3 gap-6 w-full p-6 px-6 pb-6">
           <Link to="/film/joyride">
             <img src="/images/joyride-cover.jpg" />
           </Link>
