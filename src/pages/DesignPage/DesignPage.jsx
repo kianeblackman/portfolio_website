@@ -26,7 +26,7 @@ export default function DesignPage() {
             <img src="/images/toilet-roll-roll-cover.jpg" />
           </Link>
           <Link to="/design/rooted-and-booted">
-            <img src="/images/toilet-roll-roll-cover.jpg" />
+            <img src="/images/rooted-and-booted-cover.jpg" />
           </Link>
         </div>
       </ul>
