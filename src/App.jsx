@@ -54,8 +54,8 @@ function App() {
 
   // Returns the navigation bar and the all app routes
   return (
-    <div>
-      <nav className="grid grid-cols-4 h-6 fixed w-full">
+    <div className="">
+      <nav className="fixed z-10 grid grid-cols-4 h-6 w-full">
         <li className="flex items-center justify-center text-ellipsis list-none text-1xl h-12 xs:text-2xl bg-[#FEC11A]">
           <Link to="/" onClick={() => setColour('#FEC11A')}>
             About
@@ -77,7 +77,7 @@ function App() {
           </Link>
         </li>
       </nav>
-      <Routes>
+      <Routes className="z-0">
         <Route path="/" exact element={<AboutPage />}></Route>
         <Route path="/code" element={<CodePage />}></Route>
         <Route path="/code/trove" element={<Trove />}></Route>

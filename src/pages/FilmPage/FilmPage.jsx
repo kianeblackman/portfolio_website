@@ -11,19 +11,44 @@ export default function FilmPage() {
       <ul className="pt-12">
         <div className="grid grid-cols-1 xs:grid-cols-3 gap-6 w-full p-6 px-6 pb-6">
           <Link to="/film/joyride">
-            <img src="/images/joyride-cover.jpg" />
+            <div className="relative">
+              <h1 className="absolute flex bg-white h-full w-full opacity-0 hover:opacity-50 items-center justify-center">
+                Joyride - Rashan
+              </h1>
+              <img src="/images/joyride-cover.jpg" />
+            </div>
           </Link>
           <Link to="/film/2-wrecked-2-care">
-            <img src="/images/cmat-2wrecked2care-cover.jpg" />
+            <div className="relative">
+              <h1 className="absolute flex bg-white h-full w-full opacity-0 hover:opacity-50 items-center justify-center">
+                cmat - 2 Wrecked 2 Care
+              </h1>
+              <img src="/images/cmat-2wrecked2care-cover.jpg" />
+            </div>
           </Link>
           <Link to="/film/straws-suck">
-            <img src="/images/straws-suck-cover.jpg" />
+            <div className="relative">
+              <h1 className="absolute flex bg-white h-full w-full opacity-0 hover:opacity-50 items-center justify-center">
+                Straws Suck
+              </h1>
+              <img src="/images/straws-suck-cover.jpg" />
+            </div>
           </Link>
           <Link to="/film/&albert">
-            <img src="/images/albert-cover.jpg" />
+            <div className="relative">
+              <h1 className="absolute flex bg-white h-full w-full opacity-0 hover:opacity-50 items-center justify-center">
+                & Albert
+              </h1>
+              <img src="/images/albert-cover.jpg" />
+            </div>
           </Link>
           <Link to="/film/take-a-chance">
-            <img src="/images/take-a-chance-cover.jpg" />
+            <div className="relative">
+              <h1 className="absolute flex bg-white h-full w-full opacity-0 hover:opacity-50 items-center justify-center">
+                Take a Chance
+              </h1>
+              <img src="/images/take-a-chance-cover.jpg" />
+            </div>
           </Link>
         </div>
       </ul>
