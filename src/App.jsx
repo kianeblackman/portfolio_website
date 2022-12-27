@@ -56,26 +56,26 @@ function App() {
   return (
     <div className="">
       <nav className="fixed z-10 grid grid-cols-4 h-6 w-full">
-        <li className="flex items-center justify-center text-ellipsis list-none text-1xl h-12 xs:text-2xl bg-[#FEC11A]">
-          <Link to="/" onClick={() => setColour('#FEC11A')}>
+        <Link to="/" onClick={() => setColour('#FEC11A')}>
+          <li className="flex items-center justify-center text-ellipsis list-none text-2xl h-12 xs:text-3xl font-dm-sans bg-[#FEC11A]">
             About
-          </Link>
-        </li>
-        <li className="flex items-center justify-center list-none text-1xl h-12 xs:text-2xl bg-red-500">
-          <Link to="/code" onClick={() => setColour('#EF4444')}>
+          </li>
+        </Link>
+        <Link to="/code" onClick={() => setColour('#EF4444')}>
+          <li className="flex items-center justify-center list-none text-1xl h-12 xs:text-2xl bg-red-500">
             Code
-          </Link>
-        </li>
-        <li className="flex items-center justify-center list-none text-1xl h-12 xs:text-2xl bg-blue-500">
-          <Link to="/design" onClick={() => setColour('#3B82F6')}>
+          </li>
+        </Link>
+        <Link to="/design" onClick={() => setColour('#3B82F6')}>
+          <li className="flex items-center justify-center list-none text-1xl h-12 xs:text-2xl bg-blue-500">
             Design
-          </Link>
-        </li>
-        <li className="flex items-center justify-center list-none text-1xl h-12 xs:text-2xl bg-green-500">
-          <Link to="/film" onClick={() => setColour('#22C564')}>
+          </li>
+        </Link>
+        <Link to="/film" onClick={() => setColour('#22C564')}>
+          <li className="flex items-center justify-center list-none text-1xl h-12 xs:text-2xl bg-green-500">
             Film
-          </Link>
-        </li>
+          </li>
+        </Link>
       </nav>
       <Routes className="z-0">
         <Route path="/" exact element={<AboutPage />}></Route>

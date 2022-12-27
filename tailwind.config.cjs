@@ -5,7 +5,11 @@ module.exports = {
     screens: {
       xs: '460px',
     },
-    extend: {},
+    extend: {
+      fontFamily: {
+        'dm-sans': ['"DM Sans"', 'sans-serif'],
+      },
+    },
   },
   plugins: [],
 };
