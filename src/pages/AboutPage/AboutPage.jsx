@@ -8,19 +8,30 @@ export default function AboutPage() {
   return (
     <div className="p-6 pt-16">
       <div className="w-full xs:w-3/4">
-        <h1 className="text-5xl xs:text-7xl">Hello, I'm Kiane Blackman</h1>
-        <h2 className="text-2xl xs:text-3xl">
-          I’m a <span className="underline">developer</span>,{' '}
-          <span className="underline">designer</span>,{' '}
-          <span className="underline">filmmaker</span> and all round a pretty
-          creative fellah. Welcome to my portfolio. Grab a drink or a snack,
-          take your time and enjoy!
+        <h1 className="pb-3 font-head text-5xl font-bold xs:text-7xl">
+          Hello, I'm Kiane Blackman
+        </h1>
+        <h2 className="font-merry text-2xl font-light xs:text-3xl">
+          I’m a{' '}
+          <span className="rounded-full border-2 border-dashed border-red-500 px-1">
+            developer
+          </span>
+          ,{' '}
+          <span className="rounded-full border-2 border-dashed border-blue-500 px-1">
+            designer
+          </span>
+          ,{' '}
+          <span className="rounded-full border-2 border-dashed border-green-500 px-1">
+            filmmaker
+          </span>{' '}
+          and all round a pretty creative fellah. Welcome to my portfolio. Grab
+          a drink or a snack, take your time and enjoy!
         </h2>
       </div>
       <br></br>
       <div className="xs:w-1/2">
-        <h2 className="text-3xl underline">My Story</h2>
-        <h3 className="text-xl">
+        <h2 className="pb-3 font-merry text-4xl underline">My story:</h2>
+        <h3 className="font-merry text-lg font-light">
           I’ve always loved problem solving. It’s been the common thread
           throughout all of the different career paths I’ve taken. I enjoy
           trying things I’ve never tried before, jumping into projects and
@@ -28,11 +39,10 @@ export default function AboutPage() {
           <br></br>
           <br></br>
           Here’s a video of me lituraly jumping into something I’d only been
-          learning for an hour:
-          <br></br>
+          learning for an hour ↘<br></br>
           <br></br>
           <iframe
-            className="w-full aspect-video "
+            className="aspect-video w-full"
             src="https://www.youtube.com/embed/kf4WRWkapfk"
           ></iframe>
           <br></br>
@@ -52,37 +62,67 @@ export default function AboutPage() {
           begin a new career as a Software Developer.
         </h3>
         <br></br>
-        <h2 className="text-3xl underline">Work</h2>
-        <ul className="text-xl">
-          <li>Business Owner at Rooted and Booted (Feb 2022-Present)</li>
-          <li>Graphic Designer, Freelancer (2015-Present)</li>
-          <li>Gardener at The Dab Hand (2019-Mar 2022)</li>
+        <h2 className="pb-3 font-merry text-4xl underline">Work:</h2>
+        <ul className="font-merry text-lg font-light">
           <li>
-            Project Coordinator at London Business Partnership (2020-May 2021)
+            <span className="font-head font-semibold">Business Owner</span> ||
+            Rooted and Booted <sup>Feb 2022-Present</sup>
           </li>
-          <li>Business Owner at Box.Din (2020)</li>
-          <li>Lead Designer at Mediaplanet (2018-Nov 2019)</li>
-          <li>Designer at Springboard (2016-2018)</li>
           <li>
-            Event photographer and filmmaker at Togada Studios (2016-2018)
+            <span className="font-head font-semibold"> Graphic Designer</span>{' '}
+            || Freelancer <sup>2015-Present</sup>
+          </li>
+          <li>
+            <span className="font-head font-semibold">Gardener</span> || The Dab
+            Hand <sup>2019-Mar 2022</sup>
+          </li>
+          <li>
+            <span className="font-head font-semibold">Project Coordinator</span>{' '}
+            || London Business Partnership <sup>2020-May 2021</sup>
+          </li>
+          <li>
+            <span className="font-head font-semibold">Business Owner</span> ||
+            Box.Din <sup>2020</sup>
+          </li>
+          <li>
+            <span className="font-head font-semibold">Lead Designer</span> ||
+            Mediaplanet <sup>2018-Nov 2019</sup>
+          </li>
+          <li>
+            <span className="font-head font-semibold">Designer</span> ||
+            Springboard <sup>2016-2018</sup>
+          </li>
+          <li>
+            <span className="font-head font-semibold">
+              Event photographer and filmmaker
+            </span>{' '}
+            || Togada Studios <sup>2016-2018</sup>
           </li>
         </ul>
         <br></br>
         <TecStack />
         <br></br>
-        <h2 className="text-3xl underline">Education</h2>
-        <ul className="text-xl">
-          <li>Coding Bootcamp at School of Code (Oct 2022-Feb2023)</li>
+        <h2 className="pb-3 font-merry text-4xl underline">Education:</h2>
+        <ul className="font-merry text-lg font-light">
           <li>
-            First Class, Graphic Design BA Hons at Kingston University
-            (2016-2019)
+            <span className="font-head font-semibold">Coding Bootcamp</span> ||
+            School of Code <sup>Oct 2022-Feb2023</sup>
           </li>
           <li>
-            Art & Design Foundation Course at Sussex Downs Collage (2014- 2015)
+            <span className="font-head font-semibold">
+              First Class, Graphic Design BA Hons
+            </span>{' '}
+            || Kingston University <sup>2016-2019</sup>
+          </li>
+          <li>
+            <span className="font-head font-semibold">
+              Art & Design Foundation Course
+            </span>{' '}
+            || Sussex Downs Collage <sup>2014- 2015</sup>
           </li>
         </ul>
         <br></br>
-        <h2 className="text-3xl underline">Contact</h2>
+        <h2 className="pb-3 font-merry text-4xl underline">Contact</h2>
         <ul className="text-xl">
           <li>Softwear Developer</li>
           <li>

@@ -54,27 +54,35 @@ function App() {
 
   // Returns the navigation bar and the all app routes
   return (
-    <div className="">
-      <nav className="fixed z-10 grid grid-cols-4 h-6 w-full">
+    <>
+      <nav className="fixed z-10 grid h-6 w-full grid-cols-4">
         <Link to="/" onClick={() => setColour('#FEC11A')}>
-          <li className="flex items-center justify-center text-ellipsis list-none text-2xl h-12 xs:text-3xl font-dm-sans bg-[#FEC11A]">
-            About
-          </li>
+          <div className="flex h-12 items-center justify-center bg-[#FEC11A]">
+            <li className="text-1xl list-none font-head font-medium xs:text-3xl">
+              About
+            </li>
+          </div>
         </Link>
         <Link to="/code" onClick={() => setColour('#EF4444')}>
-          <li className="flex items-center justify-center list-none text-1xl h-12 xs:text-2xl bg-red-500">
-            Code
-          </li>
+          <div className="flex h-12 items-center justify-center bg-red-500">
+            <li className="text-1xl list-none font-head font-medium xs:text-3xl">
+              Code
+            </li>
+          </div>
         </Link>
         <Link to="/design" onClick={() => setColour('#3B82F6')}>
-          <li className="flex items-center justify-center list-none text-1xl h-12 xs:text-2xl bg-blue-500">
-            Design
-          </li>
+          <div className="flex h-12 items-center justify-center bg-blue-500">
+            <li className="text-1xl list-none font-head font-medium xs:text-3xl">
+              Design
+            </li>
+          </div>
         </Link>
         <Link to="/film" onClick={() => setColour('#22C564')}>
-          <li className="flex items-center justify-center list-none text-1xl h-12 xs:text-2xl bg-green-500">
-            Film
-          </li>
+          <div className="flex h-12 items-center justify-center bg-green-500">
+            <li className="text-1xl list-none font-head font-medium xs:text-3xl">
+              Film
+            </li>
+          </div>
         </Link>
       </nav>
       <Routes className="z-0">
@@ -107,7 +115,7 @@ function App() {
         <Route path="/film/take-a-chance" element={<TakeAChance />}></Route>
         <Route path="/film/jargogle" element={<Jargogle />}></Route>
       </Routes>
-    </div>
+    </>
   );
 }
 

@@ -7,9 +7,18 @@ module.exports = {
     },
     extend: {
       fontFamily: {
-        'dm-sans': ['"DM Sans"', 'sans-serif'],
+        head: ['"Poppins"', 'sans-serif'],
+        //Light, Regular, Medium, SemiBold, Bold, Black
+        body: ['Roboto Slab', 'serif'],
+        // Regular
+        merry: ['Merriweather', 'serif'],
+        // Regular
+        slackey: ['Slackey', 'display'],
+        // Regular
       },
     },
   },
   plugins: [],
 };
+
+//
