@@ -7,8 +7,8 @@ import React from 'react';
 export default function TecStack() {
   return (
     <div>
-      <h2 className="pb-3 font-merry text-4xl underline">Tec Stack:</h2>
-      <h2 className="text-xl pt-3">Languages:</h2>
+      <h2 className="pb-3 font-body text-4xl underline">Tec Stack:</h2>
+      <h2 className="pt-3 text-xl">Languages:</h2>
       <div className="flex flex-wrap gap-3 pt-3">
         <div className="flex border border-black text-black">
           <img src="https://img.shields.io/badge/javascript-FEC11A?style=for-the-badge&logo=javascript&logoColor=black"></img>
@@ -26,7 +26,7 @@ export default function TecStack() {
           <img src="https://img.shields.io/badge/sql-FEC11A?style=for-the-badge&logo=postgresql&logoColor=black"></img>
         </div>
       </div>
-      <h2 className="text-xl pt-3">Creative:</h2>
+      <h2 className="pt-3 text-xl">Creative:</h2>
       <div className="flex flex-wrap gap-3 pt-3">
         <div className="border border-black">
           <img src="https://img.shields.io/badge/miro-FEC11A?style=for-the-badge&logo=miro&logoColor=black"></img>
@@ -50,7 +50,7 @@ export default function TecStack() {
           <img src="https://img.shields.io/badge/aftereffects-FEC11A?style=for-the-badge&logo=adobeaftereffects&logoColor=black"></img>
         </div>
       </div>
-      <h2 className="text-xl pt-3">Other:</h2>
+      <h2 className="pt-3 text-xl">Other:</h2>
       <div className="flex flex-wrap gap-3 pt-3">
         <div className="border border-black">
           <img src="https://img.shields.io/badge/react-FEC11A?style=for-the-badge&logo=react&logoColor=black"></img>

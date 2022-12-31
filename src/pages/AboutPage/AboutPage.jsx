@@ -80,41 +80,29 @@ export default function AboutPage() {
         <br></br>
         <TecStack />
         <br></br>
-        <h2 className="pb-3 font-head text-4xl font-medium underline">
-          Education:
-        </h2>
-        <ul className="className=font-body text-lg font-light">
+        <h2 className="pb-3 font-body text-4xl underline">Education:</h2>
+        <ul className="font-body text-lg">
+          <li>Coding Bootcamp || School of Code — Oct 2022-Feb2023</li>
           <li>
-            <span className="font-regular font-head">Coding Bootcamp</span> ||
-            School of Code <sup>Oct 2022-Feb2023</sup>
+            First Class, Graphic Design BA Hons || Kingston University —
+            2016-2019
           </li>
           <li>
-            <span className="font-head font-semibold">
-              First Class, Graphic Design BA Hons
-            </span>{' '}
-            || Kingston University <sup>2016-2019</sup>
-          </li>
-          <li>
-            <span className="font-head font-semibold">
-              Art & Design Foundation Course
-            </span>{' '}
-            || Sussex Downs Collage <sup>2014- 2015</sup>
+            Art & Design Foundation Course || Sussex Downs Collage — 2014- 2015
           </li>
         </ul>
         <br></br>
         <h2 className="pb-3 font-body text-4xl underline">Contact</h2>
-        <ul className="text-xl">
+        <ul className="font-body text-lg">
           <li>
+            Email || {''}
             <a href="mailto: kianeblackman@gmail.com">
-              <span className="font-head font-semibold">Email</span> ||
               kianeblackman@gmail.com
             </a>
           </li>
           <li>
-            <h3 className="font-head font-semibold">
-              GitHub ||
-              <a href="https://github.com/kianeblackman">@kianeblackman</a>
-            </h3>
+            GitHub || {''}
+            <a href="https://github.com/kianeblackman">@kianeblackman</a>
           </li>
         </ul>
       </div>
