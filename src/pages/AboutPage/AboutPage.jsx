@@ -11,7 +11,7 @@ export default function AboutPage() {
         <h1 className="pb-3 font-head text-5xl font-bold xs:text-7xl">
           Hello, I'm Kiane Blackman
         </h1>
-        <h2 className="font-merry text-2xl font-light xs:text-3xl">
+        <h2 className="font-body text-2xl font-light xs:text-3xl">
           I’m a{' '}
           <span className="rounded-full border-2 border-dashed border-red-500 px-1">
             developer
@@ -30,8 +30,8 @@ export default function AboutPage() {
       </div>
       <br></br>
       <div className="xs:w-1/2">
-        <h2 className="pb-3 font-merry text-4xl underline">My story:</h2>
-        <h3 className="font-merry text-lg font-light">
+        <h2 className="pb-3 font-body text-4xl underline">My story:</h2>
+        <h3 className="font-body text-lg">
           I’ve always loved problem solving. It’s been the common thread
           throughout all of the different career paths I’ve taken. I enjoy
           trying things I’ve never tried before, jumping into projects and
@@ -62,50 +62,30 @@ export default function AboutPage() {
           begin a new career as a Software Developer.
         </h3>
         <br></br>
-        <h2 className="pb-3 font-merry text-4xl underline">Work:</h2>
-        <ul className="font-merry text-lg font-light">
+        <h2 className="pb-3 font-body text-4xl underline">Work:</h2>
+        <ul className="font-body text-lg">
+          <li>Business Owner || Rooted and Booted — Feb 2022-Present</li>
+          <li>Graphic Designer || Freelancer — 2015-Present</li>
+          <li>Gardener || The Dab Hand — 2019-Mar 2022</li>
           <li>
-            <span className="font-head font-semibold">Business Owner</span> ||
-            Rooted and Booted <sup>Feb 2022-Present</sup>
+            Project Coordinator || London Business Partnership — 2020-May 2021
           </li>
+          <li>Business Owner || Box.Din —2020</li>
+          <li>Lead Designer || Mediaplanet — 2018-2019</li>
+          <li>Designer || Springboard — 2016-2018</li>
           <li>
-            <span className="font-head font-semibold"> Graphic Designer</span>{' '}
-            || Freelancer <sup>2015-Present</sup>
-          </li>
-          <li>
-            <span className="font-head font-semibold">Gardener</span> || The Dab
-            Hand <sup>2019-Mar 2022</sup>
-          </li>
-          <li>
-            <span className="font-head font-semibold">Project Coordinator</span>{' '}
-            || London Business Partnership <sup>2020-May 2021</sup>
-          </li>
-          <li>
-            <span className="font-head font-semibold">Business Owner</span> ||
-            Box.Din <sup>2020</sup>
-          </li>
-          <li>
-            <span className="font-head font-semibold">Lead Designer</span> ||
-            Mediaplanet <sup>2018-Nov 2019</sup>
-          </li>
-          <li>
-            <span className="font-head font-semibold">Designer</span> ||
-            Springboard <sup>2016-2018</sup>
-          </li>
-          <li>
-            <span className="font-head font-semibold">
-              Event photographer and filmmaker
-            </span>{' '}
-            || Togada Studios <sup>2016-2018</sup>
+            Event photographer and filmmaker || Togada Studios — 2016-2018
           </li>
         </ul>
         <br></br>
         <TecStack />
         <br></br>
-        <h2 className="pb-3 font-merry text-4xl underline">Education:</h2>
-        <ul className="font-merry text-lg font-light">
+        <h2 className="pb-3 font-head text-4xl font-medium underline">
+          Education:
+        </h2>
+        <ul className="className=font-body text-lg font-light">
           <li>
-            <span className="font-head font-semibold">Coding Bootcamp</span> ||
+            <span className="font-regular font-head">Coding Bootcamp</span> ||
             School of Code <sup>Oct 2022-Feb2023</sup>
           </li>
           <li>
@@ -122,16 +102,19 @@ export default function AboutPage() {
           </li>
         </ul>
         <br></br>
-        <h2 className="pb-3 font-merry text-4xl underline">Contact</h2>
+        <h2 className="pb-3 font-body text-4xl underline">Contact</h2>
         <ul className="text-xl">
-          <li>Softwear Developer</li>
           <li>
             <a href="mailto: kianeblackman@gmail.com">
+              <span className="font-head font-semibold">Email</span> ||
               kianeblackman@gmail.com
             </a>
           </li>
           <li>
-            <a href="https://github.com/kianeblackman">@kianeblackman</a>
+            <h3 className="font-head font-semibold">
+              GitHub ||
+              <a href="https://github.com/kianeblackman">@kianeblackman</a>
+            </h3>
           </li>
         </ul>
       </div>

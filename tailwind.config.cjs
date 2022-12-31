@@ -9,9 +9,7 @@ module.exports = {
       fontFamily: {
         head: ['"Poppins"', 'sans-serif'],
         //Light, Regular, Medium, SemiBold, Bold, Black
-        body: ['Roboto Slab', 'serif'],
-        // Regular
-        merry: ['Merriweather', 'serif'],
+        body: ['Merriweather', 'serif'],
         // Regular
         slackey: ['Slackey', 'display'],
         // Regular

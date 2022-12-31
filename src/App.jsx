@@ -57,29 +57,29 @@ function App() {
     <>
       <nav className="fixed z-10 grid h-6 w-full grid-cols-4">
         <Link to="/" onClick={() => setColour('#FEC11A')}>
-          <div className="flex h-12 items-center justify-center bg-[#FEC11A]">
-            <li className="text-1xl list-none font-head font-medium xs:text-3xl">
+          <div className="flex h-12 items-center justify-center bg-[#FEC11A] hover:text-yellow-900">
+            <li className="text-1xl font-regular list-none font-head xs:text-2xl">
               About
             </li>
           </div>
         </Link>
         <Link to="/code" onClick={() => setColour('#EF4444')}>
-          <div className="flex h-12 items-center justify-center bg-red-500">
-            <li className="text-1xl list-none font-head font-medium xs:text-3xl">
+          <div className="flex h-12 items-center justify-center bg-red-500 hover:text-red-800">
+            <li className="text-1xl font-regular list-none font-head xs:text-2xl">
               Code
             </li>
           </div>
         </Link>
         <Link to="/design" onClick={() => setColour('#3B82F6')}>
-          <div className="flex h-12 items-center justify-center bg-blue-500">
-            <li className="text-1xl list-none font-head font-medium xs:text-3xl">
+          <div className="flex h-12 items-center justify-center bg-blue-500 hover:text-blue-800">
+            <li className="text-1xl font-regular list-none font-head xs:text-2xl">
               Design
             </li>
           </div>
         </Link>
         <Link to="/film" onClick={() => setColour('#22C564')}>
-          <div className="flex h-12 items-center justify-center bg-green-500">
-            <li className="text-1xl list-none font-head font-medium xs:text-3xl">
+          <div className="flex h-12 items-center justify-center bg-green-500 hover:text-green-800">
+            <li className="text-1xl font-regular list-none font-head xs:text-2xl">
               Film
             </li>
           </div>
