@@ -7,7 +7,7 @@ import React from 'react';
 export default function TecStack() {
   return (
     <div>
-      <h2 className="text-3xl underline">Tec Stack</h2>
+      <h2 className="pb-3 font-merry text-4xl underline">Tec Stack:</h2>
       <h2 className="text-xl pt-3">Languages:</h2>
       <div className="flex flex-wrap gap-3 pt-3">
         <div className="flex border border-black text-black">

@@ -54,28 +54,36 @@ function App() {
 
   // Returns the navigation bar and the all app routes
   return (
-    <div className="">
-      <nav className="fixed z-10 grid grid-cols-4 h-6 w-full">
-        <li className="flex items-center justify-center text-ellipsis list-none text-1xl h-12 xs:text-2xl bg-[#FEC11A]">
-          <Link to="/" onClick={() => setColour('#FEC11A')}>
-            About
-          </Link>
-        </li>
-        <li className="flex items-center justify-center list-none text-1xl h-12 xs:text-2xl bg-red-500">
-          <Link to="/code" onClick={() => setColour('#EF4444')}>
-            Code
-          </Link>
-        </li>
-        <li className="flex items-center justify-center list-none text-1xl h-12 xs:text-2xl bg-blue-500">
-          <Link to="/design" onClick={() => setColour('#3B82F6')}>
-            Design
-          </Link>
-        </li>
-        <li className="flex items-center justify-center list-none text-1xl h-12 xs:text-2xl bg-green-500">
-          <Link to="/film" onClick={() => setColour('#22C564')}>
-            Film
-          </Link>
-        </li>
+    <>
+      <nav className="fixed z-10 grid h-6 w-full grid-cols-4">
+        <Link to="/" onClick={() => setColour('#FEC11A')}>
+          <div className="flex h-12 items-center justify-center bg-[#FEC11A] hover:text-yellow-900">
+            <li className="text-1xl font-regular list-none font-head xs:text-2xl">
+              About
+            </li>
+          </div>
+        </Link>
+        <Link to="/code" onClick={() => setColour('#EF4444')}>
+          <div className="flex h-12 items-center justify-center bg-red-500 hover:text-red-800">
+            <li className="text-1xl font-regular list-none font-head xs:text-2xl">
+              Code
+            </li>
+          </div>
+        </Link>
+        <Link to="/design" onClick={() => setColour('#3B82F6')}>
+          <div className="flex h-12 items-center justify-center bg-blue-500 hover:text-blue-800">
+            <li className="text-1xl font-regular list-none font-head xs:text-2xl">
+              Design
+            </li>
+          </div>
+        </Link>
+        <Link to="/film" onClick={() => setColour('#22C564')}>
+          <div className="flex h-12 items-center justify-center bg-green-500 hover:text-green-800">
+            <li className="text-1xl font-regular list-none font-head xs:text-2xl">
+              Film
+            </li>
+          </div>
+        </Link>
       </nav>
       <Routes className="z-0">
         <Route path="/" exact element={<AboutPage />}></Route>
@@ -107,7 +115,7 @@ function App() {
         <Route path="/film/take-a-chance" element={<TakeAChance />}></Route>
         <Route path="/film/jargogle" element={<Jargogle />}></Route>
       </Routes>
-    </div>
+    </>
   );
 }
 

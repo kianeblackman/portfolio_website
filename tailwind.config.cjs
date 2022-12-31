@@ -5,7 +5,18 @@ module.exports = {
     screens: {
       xs: '460px',
     },
-    extend: {},
+    extend: {
+      fontFamily: {
+        head: ['"Poppins"', 'sans-serif'],
+        //Light, Regular, Medium, SemiBold, Bold, Black
+        body: ['Merriweather', 'serif'],
+        // Regular
+        slackey: ['Slackey', 'display'],
+        // Regular
+      },
+    },
   },
   plugins: [],
 };
+
+//
