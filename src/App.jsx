@@ -56,8 +56,8 @@ function App() {
   return (
     <>
       <nav className="fixed z-10 grid h-6 w-full grid-cols-4">
-        <Link to="/" onClick={() => setColour('#FEC11A')}>
-          <div className="flex h-12 items-center justify-center bg-[#FEC11A]">
+        <Link to="/" onClick={() => setColour('#eab308')}>
+          <div className="flex h-12 items-center justify-center bg-yellow-500">
             <li className="text-1xl font-regular list-none font-head xs:text-2xl">
               About
             </li>

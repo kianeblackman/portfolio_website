@@ -5,9 +5,6 @@ module.exports = {
     screens: {
       xs: '460px',
     },
-    colours: {
-      black: '#171717',
-    },
     extend: {
       fontFamily: {
         head: ['"Poppins"', 'sans-serif'],

@@ -86,9 +86,11 @@ export default function AboutPage() {
         </h2>
         <h3>Languages</h3>
         <TecStackLanguages />
-        <h3>Languages</h3>
+        <br></br>
+        <h3>Creative</h3>
         <TecStackCreative />
-        <h3>Languages</h3>
+        <br></br>
+        <h3>Other</h3>
         <TecStackOther />
         <br></br>
         <h2 className="font-regular pb-3 font-head text-2xl underline underline-offset-4">
