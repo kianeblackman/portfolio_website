@@ -13,8 +13,8 @@ export default function MyStory() {
           <p>Here's a GIF of me lituraly jumping into something I'd only been
           learning for an hour:</p>
           <br></br>
-          {/* <iframe className="aspect-video w-full" src="https://www.youtube.com/embed/kf4WRWkapfk"></iframe> */}
-          <img src="/images/about-page.gif" className="w-full"/>
+          <iframe className="aspect-video w-full" src="https://www.youtube.com/embed/kf4WRWkapfk"></iframe>
+          {/* <img src="/images/about-page.gif" className="w-full"/> */}
           <br></br>   
           <p>If you're not convinced by that, in September 2022 I took another jump
           into something that I'd been wanting to tackel for years, coding.

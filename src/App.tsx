@@ -34,7 +34,7 @@ import Portfolio from './pages/CodePage/projects/Portfolio.js';
 
 function App() {
   // Set's the default state background colour
-  const [color, setColour] = useState('');
+  const [color, setColour] = useState('#FFFBEB');
 
   // Set's the background colour to the colour stored in local storage on page refresh
   useEffect(() => {
