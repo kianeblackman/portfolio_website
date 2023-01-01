@@ -21,10 +21,10 @@ export default function AboutPage() {
           <span className="rounded-full border bg-orange-400 border-black px-2 text-black">
             developer
           </span>{' '}
-          <span className="rounded-full border bg-indigo-500 border-black px-2 text-black">
+          <span className="rounded-full border bg-blue-500 border-black px-2 text-black">
             designer
           </span>{' '}
-          <span className="rounded-full border bg-emerald-500 border-black px-2 text-black">
+          <span className="rounded-full border bg-pink-400 border-black px-2 text-black">
             filmmaker
           </span>{' '}
           and all round a pretty creative fellah. Welcome to my portfolio. Grab
@@ -37,9 +37,9 @@ export default function AboutPage() {
         <br></br>
         <Work />
         <br></br>
-        <TecStack />
-        <br></br>
         <Education />
+        <br></br>
+        <TecStack />
         <br></br>
         <Contact />
       </div>
