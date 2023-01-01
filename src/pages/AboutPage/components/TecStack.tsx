@@ -7,7 +7,7 @@ export default function TecStack() {
       <h2 className="font-regular pb-3 font-head text-2xl underline underline-offset-4">
         Tec Stack:
       </h2>
-      <h3>Languages</h3>
+      <h3>➤  Languages</h3>
       <ul className="flex flex-wrap gap-3 pt-3">
         <Icon.Javascript />
         <Icon.Typescript />
@@ -15,7 +15,7 @@ export default function TecStack() {
         <Icon.Css />
         <Icon.Sql />
       </ul>
-      <h3>Creative</h3>
+      <h3>➤  Creative</h3>
       <ul className="flex flex-wrap gap-3 pt-3">
         <Icon.Miro />
         <Icon.Figma />
@@ -25,7 +25,7 @@ export default function TecStack() {
         <Icon.PremierePro />
         <Icon.AfterEffects />
       </ul>
-      <h3>Other</h3>
+      <h3>➤  Other</h3>
       <ul className="flex flex-wrap gap-3 pt-3">
         <Icon.Github />
         <Icon.ReactJs />

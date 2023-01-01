@@ -1,6 +1,7 @@
 // Description: About page
 
 // Imports
+import React from 'react'
 import TecStack from './components/TecStack';
 import Education from './components/Education';
 import Contact from './components/Contact';
@@ -33,9 +34,13 @@ export default function AboutPage() {
       <br></br>
       <div className="w-full xs:w-1/2">
         <MyStory />
+        <br></br>
         <Work />
+        <br></br>
         <TecStack />
+        <br></br>
         <Education />
+        <br></br>
         <Contact />
       </div>
     </div>
