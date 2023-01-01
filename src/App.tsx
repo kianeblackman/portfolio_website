@@ -32,6 +32,10 @@ import Trove from './pages/CodePage/projects/Trove.js';
 import ToDoList from './pages/CodePage/projects/ToDoList.js';
 import Portfolio from './pages/CodePage/projects/Portfolio.js';
 
+import {
+  SiGithub,
+} from 'react-icons/si';
+
 function App() {
   // Set's the default state background colour
   const [color, setColour] = useState('#FFFBEB');
@@ -70,20 +74,20 @@ function App() {
             </li>
           </div>
         </Link>
-        <Link to="/design" onClick={() => setColour('#6366F1')}>
-          <div className="flex h-12 items-center justify-center bg-indigo-500">
+        <Link to="/design" onClick={() => setColour('#3B82F6')}>
+          <div className="flex h-12 items-center justify-center bg-blue-500">
             <li className="text-1xl font-bold list-none font-head xs:text-2xl">
               DESIGN
             </li>
           </div>
         </Link>
-        <Link to="/film" onClick={() => setColour('#10B981')}>
-          <div className="flex h-12 items-center justify-center bg-emerald-500">
+        <Link to="/film" onClick={() => setColour('#F472B6')}>
+          <div className="flex h-12 items-center justify-center bg-pink-400">
             <li className="text-1xl font-bold list-none font-head xs:text-2xl">
               FILM
             </li>
           </div>
-        </Link>
+        </Link>  
       </nav>
       <div className="z-0">
       <Routes>

@@ -33,7 +33,7 @@ import {
 
 export function Miro() {
   return (
-    <li className="flex rounded-full items-center border bg-yellow-500 hover:bg-yellow-50 border-black p-1 font-head text-xs font-medium">
+    <li className="flex rounded-full items-center border hover:bg-yellow-400 border-black p-1 font-head text-xs font-medium">
       <SiMiro className="pr-1 text-lg" />
       MIRO
     </li>
@@ -42,7 +42,7 @@ export function Miro() {
 
 export function Figma() {
   return (
-    <li className="flex rounded-full items-center border border-black p-1 font-head text-xs font-medium">
+    <li className="flex rounded-full items-center border hover:bg-green-400 border-black p-1 font-head text-xs font-medium">
       <SiFigma className="pr-1 text-lg" />
       FIGMA
     </li>
@@ -51,7 +51,7 @@ export function Figma() {
 
 export function Photoshop() {
   return (
-    <li className="flex rounded-full items-center border border-black p-1 font-head text-xs font-medium">
+    <li className="flex rounded-full items-center border hover:bg-blue-400 border-black p-1 font-head text-xs font-medium">
       <SiAdobephotoshop className="pr-1 text-lg" />
       PHOTOSHOP
     </li>
@@ -60,7 +60,7 @@ export function Photoshop() {
 
 export function Indesign() {
   return (
-    <li className="flex rounded-full items-center border border-black p-1 font-head text-xs font-medium">
+    <li className="flex rounded-full items-center border hover:bg-pink-400 border-black p-1 font-head text-xs font-medium">
       <SiAdobeindesign className="pr-1 text-lg" />
       INDESIGN
     </li>
@@ -69,7 +69,7 @@ export function Indesign() {
 
 export function Illustrator() {
   return (
-    <li className="flex rounded-full items-center border border-black p-1 font-head text-xs font-medium">
+    <li className="flex rounded-full items-center border hover:bg-orange-400 border-black p-1 font-head text-xs font-medium">
       <SiAdobeillustrator className="pr-1 text-lg" />
       ILLUSTRATOR
     </li>
@@ -78,7 +78,7 @@ export function Illustrator() {
 
 export function PremierePro() {
   return (
-    <li className="flex rounded-full items-center border border-black p-1 font-head text-xs font-medium">
+    <li className="flex rounded-full items-center border hover:bg-violet-400 border-black p-1 font-head text-xs font-medium">
       <SiAdobepremierepro className="pr-1 text-lg" />
       PREMIER PRO
     </li>
@@ -87,7 +87,7 @@ export function PremierePro() {
 
 export function AfterEffects() {
   return (
-    <li className="flex rounded-full items-center border border-black p-1 font-head text-xs font-medium">
+    <li className="flex rounded-full items-center border hover:bg-purple-400 border-black p-1 font-head text-xs font-medium">
       <SiAdobeaftereffects className="pr-1 text-lg" />
       AfterEffects
     </li>
@@ -96,7 +96,7 @@ export function AfterEffects() {
 
 export function Javascript() {
   return (
-    <li className="flex rounded-full items-center border border-black p-1 font-head text-xs font-medium">
+    <li className="flex rounded-full items-center border hover:bg-yellow-400 border-black p-1 font-head text-xs font-medium">
       <SiJavascript className="pr-1 text-lg" />
       Javascript
     </li>
@@ -105,7 +105,7 @@ export function Javascript() {
 
 export function Typescript() {
   return (
-    <li className="flex rounded-full items-center border border-black p-1 font-head text-xs font-medium">
+    <li className="flex rounded-full items-center border hover:bg-blue-400 border-black p-1 font-head text-xs font-medium">
       <SiTypescript className="pr-1 text-lg" />
       Typescript
     </li>
@@ -114,7 +114,7 @@ export function Typescript() {
 
 export function Html() {
   return (
-    <li className="flex rounded-full items-center border border-black p-1 font-head text-xs font-medium">
+    <li className="flex rounded-full items-center border hover:bg-orange-400 border-black p-1 font-head text-xs font-medium">
       <SiHtml5 className="pr-1 text-lg" />
       HTML
     </li>
@@ -123,7 +123,7 @@ export function Html() {
 
 export function Css() {
   return (
-    <li className="flex rounded-full items-center border border-black p-1 font-head text-xs font-medium">
+    <li className="flex rounded-full items-center border hover:bg-blue-400 border-black p-1 font-head text-xs font-medium">
       <SiCss3 className="pr-1 text-lg" />
       CSS
     </li>
@@ -132,7 +132,7 @@ export function Css() {
 
 export function Sql() {
   return (
-    <li className="flex rounded-full items-center border border-black p-1 font-head text-xs font-medium">
+    <li className="flex rounded-full items-center border hover:bg-amber-400 border-black p-1 font-head text-xs font-medium">
       <SiPostgresql className="pr-1 text-lg" />
       SQL
     </li>
@@ -141,16 +141,16 @@ export function Sql() {
 
 export function Github() {
   return (
-    <li className="flex rounded-full items-center border border-black p-1 font-head text-xs font-medium">
+    <li className="flex rounded-full items-center border hover:bg-gray-400 border-black p-1 font-head text-xs font-medium">
       <SiGithub className="pr-1 text-lg" />
-      HIT HUB
+      GIT HUB
     </li>
   );
 }
 
 export function ReactJs() {
   return (
-    <li className="flex rounded-full items-center border border-black p-1 font-head text-xs font-medium">
+    <li className="flex rounded-full items-center border hover:bg-blue-400 border-black p-1 font-head text-xs font-medium">
       <SiReact className="pr-1 text-lg" />
       REACT
     </li>
@@ -159,16 +159,16 @@ export function ReactJs() {
 
 export function NextJs() {
   return (
-    <li className="flex rounded-full items-center border border-black p-1 font-head text-xs font-medium">
+    <li className="flex rounded-full items-center border hover:bg-gray-400 border-black p-1 font-head text-xs font-medium">
       <SiNextdotjs className="pr-1 text-lg" />
-      NEXT.JS
+      NEXT JS
     </li>
   );
 }
 
 export function TailwindCss() {
   return (
-    <li className="flex rounded-full items-center border border-black p-1 font-head text-xs font-medium">
+    <li className="flex rounded-full items-center border hover:bg-blue-400 border-black p-1 font-head text-xs font-medium">
       <SiTailwindcss className="pr-1 text-lg" />
       TAILWIND CSS
     </li>
@@ -177,25 +177,25 @@ export function TailwindCss() {
 
 export function NodeJs() {
   return (
-    <li className="flex rounded-full items-center border border-black p-1 font-head text-xs font-medium">
+    <li className="flex rounded-full items-center border hover:bg-green-400 border-black p-1 font-head text-xs font-medium">
       <SiNodedotjs className="pr-1 text-lg" />
-      NODE.JS
+      NODE JS
     </li>
   );
 }
 
 export function ExpressJs() {
   return (
-    <li className="flex rounded-full items-center border border-black p-1 font-head text-xs font-medium">
+    <li className="flex rounded-full items-center border hover:bg-gray-400 border-black p-1 font-head text-xs font-medium">
       <SiExpress className="pr-1 text-lg" />
-      EXPRESS.JS
+      EXPRESS JS
     </li>
   );
 }
 
 export function Vite() {
   return (
-    <li className="flex rounded-full items-center border border-black p-1 font-head text-xs font-medium">
+    <li className="flex rounded-full items-center border hover:bg-purple-400 border-black p-1 font-head text-xs font-medium">
       <SiVite className="pr-1 text-lg" />
       VITE
     </li>
@@ -204,7 +204,7 @@ export function Vite() {
 
 export function Npm() {
   return (
-    <li className="flex rounded-full items-center border border-black p-1 font-head text-xs font-medium">
+    <li className="flex rounded-full items-center border hover:bg-red-400 border-black p-1 font-head text-xs font-medium">
       <SiNpm className="pr-1 text-lg" />
       NPM
     </li>
@@ -213,7 +213,7 @@ export function Npm() {
 
 export function Postman() {
   return (
-    <li className="flex rounded-full items-center border border-black p-1 font-head text-xs font-medium">
+    <li className="flex rounded-full items-center border hover:bg-orange-400 border-black p-1 font-head text-xs font-medium">
       <SiPostman className="pr-1 text-lg" />
       POSTMAN
     </li>
@@ -222,7 +222,7 @@ export function Postman() {
 
 export function Netlify() {
   return (
-    <li className="flex rounded-full items-center border border-black p-1 font-head text-xs font-medium">
+    <li className="flex rounded-full items-center border hover:bg-blue-400 border-black p-1 font-head text-xs font-medium">
       <SiNetlify className="pr-1 text-lg" />
       NETLIFY
     </li>
@@ -231,7 +231,7 @@ export function Netlify() {
 
 export function Render() {
   return (
-    <li className="flex rounded-full items-center border border-black p-1 font-head text-xs font-medium">
+    <li className="flex rounded-full items-center border hover:bg-purple-400 border-black p-1 font-head text-xs font-medium">
       <SiCoronarenderer className="pr-1 text-lg" />
       RENDER
     </li>
@@ -240,7 +240,7 @@ export function Render() {
 
 export function Jest() {
   return (
-    <li className="flex rounded-full items-center border border-black p-1 font-head text-xs font-medium">
+    <li className="flex rounded-full items-center border hover:bg-red-400 border-black p-1 font-head text-xs font-medium">
       <SiJest className="pr-1 text-lg" />
       JEST
     </li>
@@ -249,7 +249,7 @@ export function Jest() {
 
 export function Cypress() {
   return (
-    <li className="flex rounded-full items-center border border-black p-1 font-head text-xs font-medium">
+    <li className="flex rounded-full items-center border hover:bg-green-400 border-black p-1 font-head text-xs font-medium">
       <SiCypress className="pr-1 text-lg" />
       CYPRESS
     </li>
@@ -258,7 +258,7 @@ export function Cypress() {
 
 export function TestingLibrary() {
   return (
-    <li className="flex rounded-full items-center border border-black p-1 font-head text-xs font-medium">
+    <li className="flex rounded-full items-center border hover:bg-orange-400 border-black p-1 font-head text-xs font-medium">
       <SiTestinglibrary className="pr-1 text-lg" />
       TESTING LIBRARY
     </li>

@@ -3,7 +3,7 @@ import React from 'react'
 export default function MyStory() {
   return (
     <div>
-      <h2 className="font-regular pb-3 font-head text-2xl underline underline-offset-auto decoration-wavy decoration-indigo-500">My story</h2>
+      <h2 className="font-regular pb-3 font-head text-2xl underline underline-offset-auto decoration-wavy">My story</h2>
         <div className="text-1xl font-body">
           <p>I've always loved problem solving. It's been the common thread
           throughout all of the different career paths I've taken. I enjoy
@@ -13,7 +13,6 @@ export default function MyStory() {
           <p>Here's a GIF of me lituraly jumping into something I'd only been
           learning for an hour:</p>
           <br></br>
-          {/* <iframe className="aspect-video w-full" src="https://www.youtube.com/embed/kf4WRWkapfk"></iframe> */}
           <img src="/images/about-page.gif" className="w-full"/>
           <br></br>   
           <p>If you're not convinced by that, in September 2022 I took another jump
