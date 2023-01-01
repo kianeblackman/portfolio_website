@@ -3,8 +3,8 @@ import React from 'react';
 export default function Education() {
   return (
     <div>
-      <h2 className="font-regular pb-3 font-head text-2xl underline underline-offset-4">
-        Education:
+      <h2 className="font-regular pb-3 font-head text-2xl underline underline-offset-auto decoration-wavy decoration-indigo-500">
+        Education
       </h2>
       <ul className="text-1xl font-body">
         <li>➤ Coding Bootcamp || School of Code — Oct 2022-Feb2023</li>

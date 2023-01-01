@@ -11,19 +11,19 @@ export default function FilmPage() {
     <div>
       <ul className="pt-12">
         <div className="grid grid-cols-1 xs:grid-cols-3 gap-6 w-full p-6 px-6 pb-6">
-          <Link to="/film/joyride">
+          <Link to="/film/">
             <ProjectCard title="Joyride" src="/images/joyride-cover.jpg" />
           </Link>
-          <Link to="/film/2-wrecked-2-care">
+          <Link to="/film/">
             <ProjectCard title="2 Wrecked 2 Care" src="/images/cmat-2wrecked2care-cover.jpg" />
           </Link>
-          <Link to="/film/straws-suck">
+          <Link to="/film/">
             <ProjectCard title="Straws Suck" src="/images/straws-suck-cover.jpg" />
           </Link>
-          <Link to="/film/&albert">
+          <Link to="/film/">
             <ProjectCard title="&Albert" src="/images/albert-cover.jpg" />
           </Link>
-          <Link to="/film/take-a-chance">
+          <Link to="/film/">
             <ProjectCard title="Task a Chance" src="/images/take-a-chance-cover.jpg" />
           </Link>
         </div>

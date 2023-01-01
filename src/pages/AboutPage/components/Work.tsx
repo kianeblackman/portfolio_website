@@ -3,8 +3,8 @@ import React from 'react';
 export default function Work() {
   return (
     <div>
-      <h2 className="font-regular pb-3 font-head text-2xl underline underline-offset-4">
-        Work:
+      <h2 className="font-regular pb-3 font-head text-2xl underline underline-offset-auto decoration-wavy decoration-indigo-500">
+        Work
       </h2>
       <ul className="text-1xl font-body">
         <li>➤ Business Owner || Rooted and Booted — Feb 2022-Present</li>
