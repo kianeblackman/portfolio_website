@@ -2,12 +2,7 @@
 
 // Imports
 import React from 'react';
-import {
-  SiAdobephotoshop,
-  SiAdobeindesign,
-  SiAdobepremierepro,
-  SiAdobeaftereffects,
-} from 'react-icons/si';
+import * as Icon from '../../../assets/TecStackIcons';
 
 // Project component
 export default function Joyride() {
@@ -25,24 +20,11 @@ export default function Joyride() {
       <h2 className="font-regular font-head text-2xl underline underline-offset-4">
         Tec Stack:
       </h2>
-      <div className="flex flex-wrap gap-3 pt-3">
-        <div className="flex items-center border border-black p-1 font-head text-xs font-medium">
-          <SiAdobephotoshop className="pr-1 text-lg" />
-          PHOTOSHOP
-        </div>
-        <div className="flex items-center border border-black p-1 font-head text-xs font-medium">
-          <SiAdobeindesign className="pr-1 text-lg" />
-          INDESIGN
-        </div>
-        <div className="flex items-center border border-black p-1 font-head text-xs font-medium">
-          <SiAdobepremierepro className="pr-1 text-lg" />
-          PREMIER PRO
-        </div>
-        <div className="flex items-center border border-black p-1 font-head text-xs font-medium">
-          <SiAdobeaftereffects className="pr-1 text-lg" />
-          AfterEffects
-        </div>
-      </div>
+      <ul className="flex flex-wrap gap-3 pt-3">
+        <Icon.Photoshop />
+        <Icon.PremierePro />
+        <Icon.AfterEffects />
+      </ul>
       <br></br>
       <iframe
         className="aspect-video w-full"
