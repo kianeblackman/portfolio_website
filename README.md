@@ -1,4 +1,3 @@
-
 # 🚀 Portfolio Website
 
 ### Hello, I'm Kiane Blackman. I’m a developer, designer, filmmaker and all round a pretty creative fellah. Welcome to my portfolio. Grab a drink or a snack, take your time and enjoy!
@@ -13,6 +12,7 @@
 | #EAB308 | ![blue](https://readme-swatches.vercel.app/EAB308) |
 
 ## 👨🏾‍💻 Tech Stack
+
 [![figma](https://img.shields.io/badge/figma-04C47B?style=for-the-badge&logo=figma&logoColor=white)](https://vitejs.dev/)
 [![tailwind css](https://img.shields.io/badge/tailwindcss-36BCFA?style=for-the-badge&logo=tailwindcss&logoColor=white)](https://vitejs.dev/)
 [![typescript](https://img.shields.io/badge/typescript-2F74C0?style=for-the-badge&logo=typescript&logoColor=white)](https://vitejs.dev/)
@@ -25,7 +25,7 @@
 If you have any feedback, please reach out to me at kianeblackman@gmail.com
 
 ## 🔗 Further Links
+
 [![portfolio](https://img.shields.io/badge/my_portfolio-EF4444?style=for-the-badge&logo=ko-fi&logoColor=white)](https://kianeblackman.com/)
 [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/kiane-gucher-blackman-646286251/)
 [![instagram](https://img.shields.io/badge/instagram-DE00E4?style=for-the-badge&logo=instagram&logoColor=white)](https://twitter.com/)
-
