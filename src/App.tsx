@@ -6,31 +6,31 @@ import React, { useState, useEffect } from 'react';
 import './Styles/App.css';
 
 // Page imports
-import AboutPage from './pages/AboutPage/AboutPage.jsx';
-import CodePage from './pages/CodePage/CodePage.jsx';
-import DesignPage from './pages/DesignPage/DesignPage.jsx';
-import FilmPage from './pages/FilmPage/FilmPage.jsx';
+import AboutPage from './pages/AboutPage/AboutPage.js';
+import CodePage from './pages/CodePage/CodePage.js';
+import DesignPage from './pages/DesignPage/DesignPage.js';
+import FilmPage from './pages/FilmPage/FilmPage.js';
 
 // Design project imports
-import MammalsMoo from './pages/DesignPage/projects/MammalsMoo.jsx';
-import CktrlRobyn from './pages/DesignPage/projects/CktrlRobyn.jsx';
-import MediaPlanet from './pages/DesignPage/projects/MediaPlanet.jsx';
-import KingstonGraphicsWeekend from './pages/DesignPage/projects/KingstonGraphicsWeekend.jsx';
-import ToiletRollRoll from './pages/DesignPage/projects/ToiletRollRoll.jsx';
-import RootedAndBooted from './pages/DesignPage/projects/RootedAndBooted.jsx';
+import MammalsMoo from './pages/DesignPage/projects/MammalsMoo.js';
+import CktrlRobyn from './pages/DesignPage/projects/CktrlRobyn.js';
+import MediaPlanet from './pages/DesignPage/projects/MediaPlanet.js';
+import KingstonGraphicsWeekend from './pages/DesignPage/projects/KingstonGraphicsWeekend.js';
+import ToiletRollRoll from './pages/DesignPage/projects/ToiletRollRoll.js';
+import RootedAndBooted from './pages/DesignPage/projects/RootedAndBooted.js';
 
 // Film project imports
-import Joyride from './pages/FilmPage/projects/Joyride.jsx';
-import WreckedCare from './pages/FilmPage/projects/WreckedCare.jsx';
-import StrawsSuck from './pages/FilmPage/projects/StrawsSuck.jsx';
-import Ablert from './pages/FilmPage/projects/Ablert.jsx';
-import TakeAChance from './pages/FilmPage/projects/TakeAChance.jsx';
-import Jargogle from './pages/FilmPage/projects/Jargogle.jsx';
+import Joyride from './pages/FilmPage/projects/Joyride.js';
+import WreckedCare from './pages/FilmPage/projects/WreckedCare.js';
+import StrawsSuck from './pages/FilmPage/projects/StrawsSuck.js';
+import Ablert from './pages/FilmPage/projects/Ablert.js';
+import TakeAChance from './pages/FilmPage/projects/TakeAChance.js';
+import Jargogle from './pages/FilmPage/projects/Jargogle.js';
 
 // Code project imports
-import Trove from './pages/CodePage/projects/Trove.jsx';
-import ToDoList from './pages/CodePage/projects/ToDoList.jsx';
-import Portfolio from './pages/CodePage/projects/Portfolio.jsx';
+import Trove from './pages/CodePage/projects/Trove.js';
+import ToDoList from './pages/CodePage/projects/ToDoList.js';
+import Portfolio from './pages/CodePage/projects/Portfolio.js';
 
 function App() {
   // Set's the default state background colour
@@ -85,8 +85,9 @@ function App() {
           </div>
         </Link>
       </nav>
-      <Routes className="z-0">
-        <Route path="/" exact element={<AboutPage />}></Route>
+      <div className="z-0">
+      <Routes>
+        <Route path="/" element={<AboutPage />}></Route>
         <Route path="/code" element={<CodePage />}></Route>
         <Route path="/code/trove" element={<Trove />}></Route>
         <Route path="/code/to-do-list" element={<ToDoList />}></Route>
@@ -115,6 +116,7 @@ function App() {
         <Route path="/film/take-a-chance" element={<TakeAChance />}></Route>
         <Route path="/film/jargogle" element={<Jargogle />}></Route>
       </Routes>
+    </div>
     </>
   );
 }
