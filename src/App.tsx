@@ -32,10 +32,7 @@ import Trove from './pages/CodePage/projects/Trove.js';
 import ToDoList from './pages/CodePage/projects/ToDoList.js';
 import Portfolio from './pages/CodePage/projects/Portfolio.js';
 
-import {
-  SiGithub,
-} from 'react-icons/si';
-
+// App component
 function App() {
   // Set's the default state background colour
   const [color, setColour] = useState('#FFFBEB');
@@ -62,65 +59,48 @@ function App() {
       <nav className="fixed z-10 grid h-6 w-full grid-cols-4">
         <Link to="/" onClick={() => setColour('#FFFBEB')}>
           <div className="flex h-12 items-center justify-center bg-yellow-50">
-            <li className="text-1xl font-bold list-none font-head xs:text-2xl">
-              ABOUT
-            </li>
+            <li className="text-1xl font-bold list-none font-head xs:text-2xl">ABOUT</li>
           </div>
         </Link>
         <Link to="/code" onClick={() => setColour('#FB923C')}>
           <div className="flex h-12 items-center justify-center bg-orange-400">
-            <li className="text-1xl font-bold list-none font-head xs:text-2xl">
-              CODE
-            </li>
+            <li className="text-1xl font-bold list-none font-head xs:text-2xl">CODE</li>
           </div>
         </Link>
         <Link to="/design" onClick={() => setColour('#3B82F6')}>
           <div className="flex h-12 items-center justify-center bg-blue-500">
-            <li className="text-1xl font-bold list-none font-head xs:text-2xl">
-              DESIGN
-            </li>
+            <li className="text-1xl font-bold list-none font-head xs:text-2xl">DESIGN</li>
           </div>
         </Link>
         <Link to="/film" onClick={() => setColour('#F472B6')}>
           <div className="flex h-12 items-center justify-center bg-pink-400">
-            <li className="text-1xl font-bold list-none font-head xs:text-2xl">
-              FILM
-            </li>
+            <li className="text-1xl font-bold list-none font-head xs:text-2xl">FILM</li>
           </div>
         </Link>  
       </nav>
       <div className="z-0">
-      <Routes>
-        <Route path="/" element={<AboutPage />}></Route>
-        <Route path="/code" element={<CodePage />}></Route>
-        <Route path="/code/trove" element={<Trove />}></Route>
-        <Route path="/code/to-do-list" element={<ToDoList />}></Route>
-        <Route path="/code/portfolio" element={<Portfolio />}></Route>
-        <Route path="/design" element={<DesignPage />}></Route>
-        <Route path="/design/mammals-moo" element={<MammalsMoo />}></Route>
-        <Route path="/design/cktrl-robyn" element={<CktrlRobyn />}></Route>
-        <Route path="/design/media-planet" element={<MediaPlanet />}></Route>
-        <Route
-          path="/design/toilet-roll-roll"
-          element={<ToiletRollRoll />}
-        ></Route>
-        <Route
-          path="/design/kingston-graphics-weekend"
-          element={<KingstonGraphicsWeekend />}
-        ></Route>
-        <Route
-          path="/design/rooted-and-booted"
-          element={<RootedAndBooted />}
-        ></Route>
-        <Route path="/film" element={<FilmPage />}></Route>
-        <Route path="/film/joyride" element={<Joyride />}></Route>
-        <Route path="/film/2-wrecked-2-care" element={<WreckedCare />}></Route>
-        <Route path="/film/straws-suck" element={<StrawsSuck />}></Route>
-        <Route path="/film/&albert" element={<Ablert />}></Route>
-        <Route path="/film/take-a-chance" element={<TakeAChance />}></Route>
-        <Route path="/film/jargogle" element={<Jargogle />}></Route>
-      </Routes>
-    </div>
+        <Routes>
+          <Route path="/" element={<AboutPage />}></Route>
+          <Route path="/code" element={<CodePage />}></Route>
+          <Route path="/code/trove" element={<Trove />}></Route>
+          <Route path="/code/to-do-list" element={<ToDoList />}></Route>
+          <Route path="/code/portfolio" element={<Portfolio />}></Route>
+          <Route path="/design" element={<DesignPage />}></Route>
+          <Route path="/design/mammals-moo" element={<MammalsMoo />}></Route>
+          <Route path="/design/cktrl-robyn" element={<CktrlRobyn />}></Route>
+          <Route path="/design/media-planet" element={<MediaPlanet />}></Route>
+          <Route path="/design/toilet-roll-roll" element={<ToiletRollRoll />}></Route>
+          <Route path="/design/kingston-graphics-weekend" element={<KingstonGraphicsWeekend />}></Route>
+          <Route path="/design/rooted-and-booted" element={<RootedAndBooted />}></Route>
+          <Route path="/film" element={<FilmPage />}></Route>
+          <Route path="/film/joyride" element={<Joyride />}></Route>
+          <Route path="/film/2-wrecked-2-care" element={<WreckedCare />}></Route>
+          <Route path="/film/straws-suck" element={<StrawsSuck />}></Route>
+          <Route path="/film/&albert" element={<Ablert />}></Route>
+          <Route path="/film/take-a-chance" element={<TakeAChance />}></Route>
+          <Route path="/film/jargogle" element={<Jargogle />}></Route>
+        </Routes>
+      </div>
     </>
   );
 }

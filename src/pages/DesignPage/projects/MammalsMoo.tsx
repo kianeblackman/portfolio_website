@@ -13,9 +13,7 @@ import {
 export default function MammalsMoo() {
   return (
     <div className="w-full p-6 pt-16 xs:w-3/4">
-      <h1 className="font-head text-4xl font-bold text-neutral-800 xs:text-7xl">
-        Mammals Moo
-      </h1>
+      <h1 className="font-head text-4xl font-bold text-neutral-800 xs:text-7xl">Mammals Moo</h1>
       <h2 className="text-1xl font-body font-light xs:text-2xl">
         As well as being a designer I spend a lot of my time engaged in one of
         my many interests, story telling. Story telling always played a huge
