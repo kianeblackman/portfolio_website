@@ -15,8 +15,7 @@
 ## 👨🏾‍💻 Tech Stack
 [![figma](https://img.shields.io/badge/figma-04C47B?style=for-the-badge&logo=figma&logoColor=white)](https://vitejs.dev/)
 [![tailwind css](https://img.shields.io/badge/tailwindcss-36BCFA?style=for-the-badge&logo=tailwindcss&logoColor=white)](https://vitejs.dev/)
-[![css 3](https://img.shields.io/badge/css3-254DE2?style=for-the-badge&logo=css3&logoColor=white)](https://vitejs.dev/)
-[![javascript](https://img.shields.io/badge/javascript-FEC11A?style=for-the-badge&logo=javascript&logoColor=black)](https://vitejs.dev/)
+[![typescript](https://img.shields.io/badge/typescript-2F74C0?style=for-the-badge&logo=typescript&logoColor=white)](https://vitejs.dev/)
 [![react](https://img.shields.io/badge/react-2D2D2D?style=for-the-badge&logo=react&logoColor=white)](https://vitejs.dev/)
 [![vite](https://img.shields.io/badge/vite-BC36FD?style=for-the-badge&logo=vite&logoColor=white)](https://vitejs.dev/)
 [![netlify](https://img.shields.io/badge/netlify-115482?style=for-the-badge&logo=netlify&logoColor=white)](https://vitejs.dev/)
