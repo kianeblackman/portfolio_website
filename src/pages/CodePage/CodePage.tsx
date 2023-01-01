@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import ProjectCard from '../../assets/ProjectCard';
+import ProjectCard from '../../utils/ProjectCard';
 
 export default function CodePage() {
   return (

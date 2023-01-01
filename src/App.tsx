@@ -56,31 +56,31 @@ function App() {
   return (
     <>
       <nav className="fixed z-10 grid h-6 w-full grid-cols-4">
-        <Link to="/" onClick={() => setColour('#eab308')}>
-          <div className="flex h-12 items-center justify-center bg-yellow-500">
-            <li className="text-1xl font-regular list-none font-head xs:text-2xl">
-              About
+        <Link to="/" onClick={() => setColour('#FFFBEB')}>
+          <div className="flex h-12 items-center justify-center bg-yellow-50">
+            <li className="text-1xl font-bold list-none font-head xs:text-2xl">
+              ABOUT
             </li>
           </div>
         </Link>
-        <Link to="/code" onClick={() => setColour('#EF4444')}>
-          <div className="flex h-12 items-center justify-center bg-red-500">
-            <li className="text-1xl font-regular list-none font-head xs:text-2xl">
-              Code
+        <Link to="/code" onClick={() => setColour('#FB923C')}>
+          <div className="flex h-12 items-center justify-center bg-orange-400">
+            <li className="text-1xl font-bold list-none font-head xs:text-2xl">
+              CODE
             </li>
           </div>
         </Link>
-        <Link to="/design" onClick={() => setColour('#3B82F6')}>
-          <div className="flex h-12 items-center justify-center bg-blue-500">
-            <li className="text-1xl font-regular list-none font-head xs:text-2xl">
-              Design
+        <Link to="/design" onClick={() => setColour('#6366F1')}>
+          <div className="flex h-12 items-center justify-center bg-indigo-500">
+            <li className="text-1xl font-bold list-none font-head xs:text-2xl">
+              DESIGN
             </li>
           </div>
         </Link>
-        <Link to="/film" onClick={() => setColour('#22C564')}>
-          <div className="flex h-12 items-center justify-center bg-green-500">
-            <li className="text-1xl font-regular list-none font-head xs:text-2xl">
-              Film
+        <Link to="/film" onClick={() => setColour('#10B981')}>
+          <div className="flex h-12 items-center justify-center bg-emerald-500">
+            <li className="text-1xl font-bold list-none font-head xs:text-2xl">
+              FILM
             </li>
           </div>
         </Link>
