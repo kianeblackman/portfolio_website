@@ -1,7 +1,9 @@
 // Description: About page
 
 // Imports
-import TecStack from './TecStack';
+import TecStackLanguages from './TecStackLanguages';
+import TecStackCreative from './TecStackCreative';
+import TecStackOther from './TecStackOther';
 
 // AboutPage component
 export default function AboutPage() {
@@ -79,7 +81,15 @@ export default function AboutPage() {
           </li>
         </ul>
         <br></br>
-        <TecStack />
+        <h2 className="font-regular pb-3 font-head text-2xl underline underline-offset-4">
+          Tec Stack:
+        </h2>
+        <h3>Languages</h3>
+        <TecStackLanguages />
+        <h3>Languages</h3>
+        <TecStackCreative />
+        <h3>Languages</h3>
+        <TecStackOther />
         <br></br>
         <h2 className="font-regular pb-3 font-head text-2xl underline underline-offset-4">
           Education:
