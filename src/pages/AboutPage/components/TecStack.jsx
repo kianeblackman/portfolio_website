@@ -1,5 +1,5 @@
 import React from 'react';
-import * as Icon from '../../assets/TecStackIcons';
+import * as Icon from '../../../assets/TecStackIcons';
 
 export default function TecStack() {
   return (

@@ -1,11 +1,11 @@
 // Description: About page
 
 // Imports
-import TecStack from './TecStack';
-import Education from './Education';
-import Contact from './Contact';
-import Work from './Work';
-import MyStory from './MyStory';
+import TecStack from './components/TecStack';
+import Education from './components/Education';
+import Contact from './components/Contact';
+import Work from './components/Work';
+import MyStory from './components/MyStory';
 
 // AboutPage component
 export default function AboutPage() {

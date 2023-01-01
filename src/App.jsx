@@ -78,7 +78,7 @@ function App() {
           </div>
         </Link>
         <Link to="/film" onClick={() => setColour('#22C564')}>
-          <div className="flex h-12 items-center justify-center bg-green-500 hover:text-green-800">
+          <div className="flex h-12 items-center justify-center bg-green-500">
             <li className="text-1xl font-regular list-none font-head xs:text-2xl">
               Film
             </li>
