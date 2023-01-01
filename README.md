@@ -4,8 +4,8 @@
 
 ## 🎨 Color Reference
 
-| Color   | Hex                                                |
-| ------- | -------------------------------------------------- |
+| Color             | Hex                                            |
+| ----------------- | ---------------------------------------------- |
 | #EF4444 | ![blue](https://readme-swatches.vercel.app/EF4444) |
 | #22C55E | ![blue](https://readme-swatches.vercel.app/22C55E) |
 | #3B82F6 | ![blue](https://readme-swatches.vercel.app/3B82F6) |
