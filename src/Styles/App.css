@@ -2,6 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+    font-family: "Orelo Wide";
+    src: url("../public/fonts/Orelo-Wide-Bold.otf");
+  }
+
 .active {
   @apply -skew-y-6 scale-110 font-bold underline duration-300 ease-in-out;
 }

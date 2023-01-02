@@ -1,7 +1,7 @@
 // Description: About page
 
 // Imports
-import React from 'react'
+import React from 'react';
 import TecStack from './components/TecStack';
 import Education from './components/Education';
 import Contact from './components/Contact';
@@ -18,13 +18,13 @@ export default function AboutPage() {
         </h1>
         <h2 className="text-1xl font-body font-light xs:text-2xl">
           I’m a{' '}
-          <span className="rounded-full border bg-orange-400 border-black px-2 text-black">
+          <span className="rounded-full border border-black bg-orange-400 px-2 text-black">
             developer
           </span>{' '}
-          <span className="rounded-full border bg-blue-500 border-black px-2 text-black">
+          <span className="rounded-full border border-black bg-blue-500 px-2 text-black">
             designer
           </span>{' '}
-          <span className="rounded-full border bg-pink-400 border-black px-2 text-black">
+          <span className="rounded-full border border-black bg-pink-400 px-2 text-black">
             filmmaker
           </span>{' '}
           and all round a pretty creative fellah. Welcome to my portfolio. Grab
