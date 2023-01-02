@@ -11,6 +11,7 @@ module.exports = {
         //Light, Regular, Medium, SemiBold, Bold, Black
         body: ['Merriweather', 'serif'],
         // Light
+        display: ['Orelo Wide', 'sans-serif'],
       },
     },
   },

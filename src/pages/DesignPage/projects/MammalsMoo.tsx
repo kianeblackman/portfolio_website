@@ -23,11 +23,13 @@ export default function MammalsMoo() {
         own stories. Mammals Moo issue one is the first book in a series of
         short story collections both written and designed by me.
       </h2>
-      <p>As well as being a designer I spend a lot of my time engaged in one of
+      <p>
+        As well as being a designer I spend a lot of my time engaged in one of
         my many interests, story telling. Story telling always played a huge
         part of my design process so it only felt natural to want to write my
         own stories. Mammals Moo issue one is the first book in a series of
-        short story collections both written and designed by me.</p>
+        short story collections both written and designed by me.
+      </p>
       <br></br>
       <h3 className="font-regular pb-3 font-head text-2xl underline underline-offset-4">
         Tec Stack:
