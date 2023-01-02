@@ -1,7 +1,7 @@
 // Description: This is the main component of the app. It contains the navigation bar and the routes.
 
 // Additional imports
-import { Link, Route, Routes } from 'react-router-dom';
+import { Link, NavLink, Route, Routes } from 'react-router-dom';
 import React, { useState, useEffect } from 'react';
 import './Styles/App.css';
 
@@ -57,26 +57,34 @@ function App() {
   return (
     <>
       <nav className="fixed z-10 grid h-6 w-full grid-cols-4">
-        <Link to="/" onClick={() => setColour('#FFFBEB')}>
-          <div className="flex h-12 items-center justify-center bg-yellow-50">
-            <li className="text-1xl font-bold list-none font-head xs:text-2xl">ABOUT</li>
-          </div>
-        </Link>
-        <Link to="/code" onClick={() => setColour('#FB923C')}>
-          <div className="flex h-12 items-center justify-center bg-orange-400">
-            <li className="text-1xl font-bold list-none font-head xs:text-2xl">CODE</li>
-          </div>
-        </Link>
-        <Link to="/design" onClick={() => setColour('#3B82F6')}>
-          <div className="flex h-12 items-center justify-center bg-blue-500">
-            <li className="text-1xl font-bold list-none font-head xs:text-2xl">DESIGN</li>
-          </div>
-        </Link>
-        <Link to="/film" onClick={() => setColour('#F472B6')}>
-          <div className="flex h-12 items-center justify-center bg-pink-400">
-            <li className="text-1xl font-bold list-none font-head xs:text-2xl">FILM</li>
-          </div>
-        </Link>  
+        <div className="flex h-12 items-center justify-center bg-yellow-50">
+          <NavLink to="/" onClick={() => setColour('#FFFBEB')}>
+            <li className="text-1xl flex h-full w-full list-none items-center justify-center gap-1 font-head font-bold transition delay-150 duration-300 ease-in-out hover:-skew-y-6 xs:text-2xl">
+              ABOUT
+            </li>
+          </NavLink>
+        </div>
+        <div className="flex h-12 items-center justify-center bg-orange-400">
+          <NavLink to="/code" onClick={() => setColour('#FB923C')}>
+            <li className="text-1xl flex list-none items-center justify-center gap-1 font-head font-bold transition delay-150 duration-300 hover:-skew-y-6 xs:text-2xl">
+              CODE
+            </li>
+          </NavLink>
+        </div>
+        <div className="flex h-12 items-center justify-center bg-blue-500">
+          <NavLink to="/design" onClick={() => setColour('#3B82F6')}>
+            <li className="text-1xl flex h-full w-full list-none items-center justify-center gap-1 font-head font-bold transition duration-300 hover:-skew-y-6 xs:text-2xl">
+              DESIGN
+            </li>
+          </NavLink>
+        </div>
+        <div className="flex h-12 items-center justify-center bg-pink-400">
+          <NavLink to="/film" onClick={() => setColour('#F472B6')}>
+            <li className="text-1xl flex h-full w-full list-none items-center justify-center gap-1 font-head font-bold transition delay-150 duration-300 ease-in-out hover:-skew-y-6 xs:text-2xl">
+              FILM
+            </li>
+          </NavLink>
+        </div>
       </nav>
       <div className="z-0">
         <Routes>
@@ -89,12 +97,24 @@ function App() {
           <Route path="/design/mammals-moo" element={<MammalsMoo />}></Route>
           <Route path="/design/cktrl-robyn" element={<CktrlRobyn />}></Route>
           <Route path="/design/media-planet" element={<MediaPlanet />}></Route>
-          <Route path="/design/toilet-roll-roll" element={<ToiletRollRoll />}></Route>
-          <Route path="/design/kingston-graphics-weekend" element={<KingstonGraphicsWeekend />}></Route>
-          <Route path="/design/rooted-and-booted" element={<RootedAndBooted />}></Route>
+          <Route
+            path="/design/toilet-roll-roll"
+            element={<ToiletRollRoll />}
+          ></Route>
+          <Route
+            path="/design/kingston-graphics-weekend"
+            element={<KingstonGraphicsWeekend />}
+          ></Route>
+          <Route
+            path="/design/rooted-and-booted"
+            element={<RootedAndBooted />}
+          ></Route>
           <Route path="/film" element={<FilmPage />}></Route>
           <Route path="/film/joyride" element={<Joyride />}></Route>
-          <Route path="/film/2-wrecked-2-care" element={<WreckedCare />}></Route>
+          <Route
+            path="/film/2-wrecked-2-care"
+            element={<WreckedCare />}
+          ></Route>
           <Route path="/film/straws-suck" element={<StrawsSuck />}></Route>
           <Route path="/film/&albert" element={<Ablert />}></Route>
           <Route path="/film/take-a-chance" element={<TakeAChance />}></Route>
