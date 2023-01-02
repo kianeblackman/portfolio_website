@@ -2,10 +2,31 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: 'Orelo Wide';
+  src: url('../public/fonts/Orelo-Wide-Bold.otf');
+}
+
 .active {
   @apply -skew-y-6 scale-110 font-bold underline duration-300 ease-in-out;
 }
 
 .hr {
   @apply border-black;
+}
+
+@layer components {
+  .prevent-select {
+    -webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE 10 and IE 11 */
+    user-select: none; /* Standard syntax */
+  }
+  .prevent-highlight {
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+    -khtml-user-select: none; /* Konqueror HTML */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+    user-select: none; /* Non-prefixed version, currently supported by Chrome and Opera */
+  }
 }

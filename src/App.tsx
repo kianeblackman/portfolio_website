@@ -59,28 +59,28 @@ function App() {
       <nav className="fixed z-10 grid h-6 w-full grid-cols-4">
         <div className="flex h-12 items-center justify-center bg-yellow-50">
           <NavLink to="/" onClick={() => setColour('#FFFBEB')}>
-            <li className="text-1xl flex list-none items-center justify-center gap-1 font-head font-medium transition delay-150 duration-100 hover:underline xs:text-2xl">
+            <li className="text-1xl flex list-none items-center justify-center gap-1 font-head font-medium transition delay-150 duration-100 hover:underline xs:text-2xl prevent-highlight">
               ABOUT
             </li>
           </NavLink>
         </div>
         <div className="flex h-12 items-center justify-center bg-orange-400">
           <NavLink to="/code" onClick={() => setColour('#FB923C')}>
-            <li className="text-1xl flex list-none items-center justify-center gap-1 font-head font-medium transition delay-150 duration-100 hover:underline xs:text-2xl">
+            <li className="text-1xl flex list-none items-center justify-center gap-1 font-head font-medium transition delay-150 duration-100 hover:underline xs:text-2xl prevent-highlight">
               CODE
             </li>
           </NavLink>
         </div>
         <div className="flex h-12 items-center justify-center bg-blue-500">
           <NavLink to="/design" onClick={() => setColour('#3B82F6')}>
-            <li className="text-1xl flex list-none items-center justify-center gap-1 font-head font-medium transition delay-150 duration-100 hover:underline xs:text-2xl">
+            <li className="text-1xl flex list-none items-center justify-center gap-1 font-head font-medium transition delay-150 duration-100 hover:underline xs:text-2xl prevent-highlight">
               DESIGN
             </li>
           </NavLink>
         </div>
         <div className="flex h-12 items-center justify-center bg-pink-400">
           <NavLink to="/film" onClick={() => setColour('#F472B6')}>
-            <li className="text-1xl flex list-none items-center justify-center gap-1 font-head font-medium transition delay-150 duration-100 hover:underline xs:text-2xl">
+            <li className="text-1xl flex list-none items-center justify-center gap-1 font-head font-medium transition delay-150 duration-100 hover:underline xs:text-2xl prevent-highlight">
               FILM
             </li>
           </NavLink>
