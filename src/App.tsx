@@ -32,6 +32,9 @@ import Trove from './pages/CodePage/projects/Trove.js';
 import ToDoList from './pages/CodePage/projects/ToDoList.js';
 import Portfolio from './pages/CodePage/projects/Portfolio.js';
 
+// 404 page import
+import NotFound from './pages/NotFound.js';
+
 // App component
 function App() {
   // Set's the default state background colour
@@ -56,31 +59,31 @@ function App() {
   // Returns the navigation bar and the all app routes
   return (
     <>
-      <nav className="fixed z-10 grid h-6 w-full grid-cols-4">
+      <nav className="z-1 fixed grid h-6 w-full grid-cols-4">
         <div className="flex h-12 items-center justify-center bg-yellow-50">
           <NavLink to="/" onClick={() => setColour('#FFFBEB')}>
-            <li className="text-1xl flex list-none items-center justify-center gap-1 font-head font-medium transition delay-150 duration-100 hover:underline xs:text-2xl prevent-highlight">
+            <li className="text-1xl prevent-highlight flex items-center justify-center font-head font-medium hover:underline xs:text-2xl">
               ABOUT
             </li>
           </NavLink>
         </div>
         <div className="flex h-12 items-center justify-center bg-orange-400">
           <NavLink to="/code" onClick={() => setColour('#FB923C')}>
-            <li className="text-1xl flex list-none items-center justify-center gap-1 font-head font-medium transition delay-150 duration-100 hover:underline xs:text-2xl prevent-highlight">
+            <li className="text-1xl prevent-highlight flex items-center justify-center font-head font-medium hover:underline xs:text-2xl">
               CODE
             </li>
           </NavLink>
         </div>
         <div className="flex h-12 items-center justify-center bg-blue-500">
           <NavLink to="/design" onClick={() => setColour('#3B82F6')}>
-            <li className="text-1xl flex list-none items-center justify-center gap-1 font-head font-medium transition delay-150 duration-100 hover:underline xs:text-2xl prevent-highlight">
+            <li className="text-1xl prevent-highlight flex items-center justify-center font-head font-medium hover:underline xs:text-2xl">
               DESIGN
             </li>
           </NavLink>
         </div>
         <div className="flex h-12 items-center justify-center bg-pink-400">
           <NavLink to="/film" onClick={() => setColour('#F472B6')}>
-            <li className="text-1xl flex list-none items-center justify-center gap-1 font-head font-medium transition delay-150 duration-100 hover:underline xs:text-2xl prevent-highlight">
+            <li className="text-1xl prevent-highlight flex items-center justify-center font-head font-medium hover:underline xs:text-2xl">
               FILM
             </li>
           </NavLink>
@@ -119,6 +122,7 @@ function App() {
           <Route path="/film/&albert" element={<Ablert />}></Route>
           <Route path="/film/take-a-chance" element={<TakeAChance />}></Route>
           <Route path="/film/jargogle" element={<Jargogle />}></Route>
+          <Route path="*" element={<NotFound />}></Route>
         </Routes>
       </div>
     </>

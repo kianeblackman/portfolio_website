@@ -13,7 +13,7 @@ export default function AboutPage() {
   return (
     <div className="p-6 pt-16">
       <div className="w-full xs:w-3/4">
-        <h1 className="pb-3 font-display text-4xl font-bold text-black xs:text-6xl">
+        <h1 className="pb-3 font-head text-4xl font-bold text-black xs:text-6xl">
           Hello, I'm Kiane Blackman
         </h1>
         <h2 className="text-1xl font-body font-light xs:text-2xl">
