@@ -7,10 +7,6 @@
   src: url('../public/fonts/Orelo-Wide-Bold.otf');
 }
 
-.active {
-  @apply -skew-y-6 scale-110 font-bold underline duration-300 ease-in-out;
-}
-
 @layer components {
   .prevent-select {
     -webkit-user-select: none; /* Safari */
@@ -20,4 +16,14 @@
   .prevent-highlight {
     -webkit-tap-highlight-color: transparent;
   }
+  .navbar-li {
+    @apply flex h-12 items-center justify-center;
+  }
+  .navbar-a {
+    @apply prevent-highlight flex items-center justify-center font-head text-xl font-medium hover:underline xs:text-2xl;
+  }
+}
+
+.active {
+  @apply -skew-y-6 scale-110 font-bold underline duration-300 ease-in-out;
 }
