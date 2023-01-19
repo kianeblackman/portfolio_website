@@ -11,12 +11,12 @@ import MyStory from './components/MyStory';
 // AboutPage component
 export default function AboutPage() {
   return (
-    <div className="p-6 pt-16">
-      <div className="w-full xs:w-3/4">
-        <h1 className="pb-3 font-head text-4xl font-bold text-black xs:text-6xl">
+    <div className="col-span-1 grid p-6 pt-16 md:grid-cols-1 lg:grid-cols-2">
+      <div className="">
+        <h1 className="pb-3 font-head text-4xl font-bold text-black lg:text-6xl">
           Hello, I'm Kiane Blackman
         </h1>
-        <h2 className="text-1xl font-body font-light xs:text-2xl">
+        <h2 className="text-1xl font-body font-light lg:text-2xl">
           I’m a{' '}
           <span className="rounded-full border border-black bg-orange-400 px-2 text-black">
             developer
@@ -30,9 +30,6 @@ export default function AboutPage() {
           and all round a pretty creative fellah. Welcome to my portfolio. Grab
           a drink or a snack, take your time and enjoy!
         </h2>
-      </div>
-      <br></br>
-      <div className="w-full xs:w-1/2">
         <MyStory />
         <br></br>
         <Work />
@@ -43,6 +40,7 @@ export default function AboutPage() {
         <br></br>
         <Contact />
       </div>
+      <div className="ml-6"></div>
     </div>
   );
 }
