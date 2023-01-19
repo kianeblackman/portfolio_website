@@ -20,7 +20,7 @@
     @apply flex h-12 items-center justify-center;
   }
   .navbar-a {
-    @apply prevent-highlight flex items-center justify-center font-head text-xl font-medium hover:underline xs:text-2xl;
+    @apply prevent-highlight flex items-center justify-center font-head text-xl font-medium hover:underline sm:text-2xl;
   }
 }
 

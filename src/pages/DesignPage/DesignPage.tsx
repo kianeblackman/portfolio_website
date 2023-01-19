@@ -10,7 +10,7 @@ export default function DesignPage() {
   return (
     <div>
       <ul className="pt-12">
-        <div className="grid w-full grid-cols-1 gap-6 p-6 px-6 pb-6 xs:grid-cols-3">
+        <div className="grid w-full grid-cols-1 gap-6 p-6 px-6 pb-6 lg:grid-cols-3">
           <Link to="/design/">
             <ProjectCard
               title="Mammals Moo"

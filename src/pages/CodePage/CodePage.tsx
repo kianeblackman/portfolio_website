@@ -6,7 +6,10 @@ export default function CodePage() {
   return (
     <div>
       <ul className="pt-12">
-        <div className="grid w-full grid-cols-1 gap-6 p-6 px-6 pb-6 xs:grid-cols-3">
+        <div className="grid w-full grid-cols-1 gap-6 p-6 px-6 pb-6 lg:grid-cols-3">
+          <Link to="/code/">
+            <ProjectCard title="Hobï" src="/images/how-long-until-cover.jpg" />
+          </Link>
           <Link to="/code/">
             <ProjectCard title="Trove" src="/images/trove-cover.jpg" />
           </Link>
