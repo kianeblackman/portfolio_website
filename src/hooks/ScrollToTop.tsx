@@ -1,19 +1,17 @@
-// Description: This hook is used to scroll to the top of the page on route change
+//* Description: This hook is used to scroll to the top of the page on route change
 
-// Imports
+// Import statements
 import { useEffect } from 'react';
 import { useLocation } from 'react-router-dom';
 
+// ScrollToTop hook
 export default function ScrollToTop() {
   const { pathname } = useLocation();
-
   useEffect(() => {
-    // "document.documentElement.scrollTo" is the magic for React Router Dom v6
     document.documentElement.scrollTo({
       top: 0,
       left: 0,
     });
   }, [pathname]);
-
   return null;
 }

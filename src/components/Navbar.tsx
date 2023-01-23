@@ -1,4 +1,4 @@
-//! Description: This is the navbar component
+//* Description: This is the navbar component
 
 // Import statements
 import React, { useState, useEffect } from 'react';
@@ -26,33 +26,25 @@ export default function Navbar() {
   });
 
   return (
-    <nav className="fixed grid h-6 w-full grid-cols-4">
+    <nav className="sticky top-0 z-10 grid h-6 w-full grid-cols-4">
       <li className="navbar-li bg-yellow-50">
         <NavLink to="/" onClick={() => setColour('#FFFBEB')}>
-          <a className="navbar-a">
-            ABOUT
-          </a>
+          <a className="navbar-a">ABOUT</a>
         </NavLink>
       </li>
       <li className="navbar-li bg-orange-400">
         <NavLink to="/code" onClick={() => setColour('#FB923C')}>
-          <a className="navbar-a">
-            CODE
-          </a>
+          <a className="navbar-a">CODE</a>
         </NavLink>
       </li>
       <li className="navbar-li bg-blue-500">
         <NavLink to="/design" onClick={() => setColour('#3B82F6')}>
-          <a className="navbar-a">
-            DESIGN
-          </a>
+          <a className="navbar-a">DESIGN</a>
         </NavLink>
       </li>
       <li className="navbar-li bg-pink-400">
         <NavLink to="/film" onClick={() => setColour('#F472B6')}>
-          <a className="navbar-a">
-            FILM
-          </a>
+          <a className="navbar-a">FILM</a>
         </NavLink>
       </li>
     </nav>

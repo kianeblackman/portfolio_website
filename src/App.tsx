@@ -1,4 +1,4 @@
-//! Description: This is the main component of the app. It contains the navigation bar and the routes.
+//* Description: This is the main component of the app. It contains the navigation bar and the routes.
 
 // Statement imports
 import { Route, Routes } from 'react-router-dom';
@@ -10,6 +10,9 @@ import AboutPage from './pages/AboutPage/AboutPage.js';
 import CodePage from './pages/CodePage/CodePage.js';
 import DesignPage from './pages/DesignPage/DesignPage.js';
 import FilmPage from './pages/FilmPage/FilmPage.js';
+
+// 404 page import
+import NotFound from './pages/NotFound.js';
 
 // Commponent imports
 import Navbar from './components/Navbar.js';
@@ -35,11 +38,8 @@ import Trove from './pages/CodePage/projects/Trove.js';
 import ToDoList from './pages/CodePage/projects/ToDoList.js';
 import Portfolio from './pages/CodePage/projects/Portfolio.js';
 
-// 404 page import
-import NotFound from './pages/NotFound.js';
-
 // App component
-function App() {
+export default function App() {
   return (
     <main>
       <Navbar />
@@ -77,5 +77,3 @@ function App() {
     </main>
   );
 }
-
-export default App;
