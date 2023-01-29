@@ -1,42 +1,43 @@
 //* Description: This is the main component of the app. It contains the navigation bar and the routes.
 
 // Statement imports
-import { Route, Routes } from 'react-router-dom';
-import React from 'react';
-import './Styles/App.css';
+import { Route, Routes } from "react-router-dom";
+import React from "react";
+import "./Styles/App.css";
 
 // Page imports
-import AboutPage from './pages/AboutPage/AboutPage.js';
-import CodePage from './pages/CodePage/CodePage.js';
-import DesignPage from './pages/DesignPage/DesignPage.js';
-import FilmPage from './pages/FilmPage/FilmPage.js';
+import AboutPage from "./pages/AboutPage/AboutPage.js";
+import CodePage from "./pages/CodePage/CodePage.js";
+import DesignPage from "./pages/DesignPage/DesignPage.js";
+import FilmPage from "./pages/FilmPage/FilmPage.js";
 
 // 404 page import
-import NotFound from './pages/NotFound.js';
+import NotFound from "./pages/NotFound.js";
 
 // Commponent imports
-import Navbar from './components/Navbar.js';
+import Navbar from "./components/Navbar.js";
 
 // Design project imports
-import MammalsMoo from './pages/DesignPage/projects/MammalsMoo.js';
-import CktrlRobyn from './pages/DesignPage/projects/CktrlRobyn.js';
-import MediaPlanet from './pages/DesignPage/projects/MediaPlanet.js';
-import KingstonGraphicsWeekend from './pages/DesignPage/projects/KingstonGraphicsWeekend.js';
-import ToiletRollRoll from './pages/DesignPage/projects/ToiletRollRoll.js';
-import RootedAndBooted from './pages/DesignPage/projects/RootedAndBooted.js';
+import MammalsMoo from "./pages/DesignPage/projects/MammalsMoo.js";
+import CktrlRobyn from "./pages/DesignPage/projects/CktrlRobyn.js";
+import MediaPlanet from "./pages/DesignPage/projects/MediaPlanet.js";
+import KingstonGraphicsWeekend from "./pages/DesignPage/projects/KingstonGraphicsWeekend.js";
+import ToiletRollRoll from "./pages/DesignPage/projects/ToiletRollRoll.js";
+import RootedAndBooted from "./pages/DesignPage/projects/RootedAndBooted.js";
 
 // Film project imports
-import Joyride from './pages/FilmPage/projects/Joyride.js';
-import WreckedCare from './pages/FilmPage/projects/WreckedCare.js';
-import StrawsSuck from './pages/FilmPage/projects/StrawsSuck.js';
-import Ablert from './pages/FilmPage/projects/Ablert.js';
-import TakeAChance from './pages/FilmPage/projects/TakeAChance.js';
-import Jargogle from './pages/FilmPage/projects/Jargogle.js';
+import Joyride from "./pages/FilmPage/projects/Joyride.js";
+import WreckedCare from "./pages/FilmPage/projects/WreckedCare.js";
+import StrawsSuck from "./pages/FilmPage/projects/StrawsSuck.js";
+import Ablert from "./pages/FilmPage/projects/Ablert.js";
+import TakeAChance from "./pages/FilmPage/projects/TakeAChance.js";
+import Jargogle from "./pages/FilmPage/projects/Jargogle.js";
 
 // Code project imports
-import Trove from './pages/CodePage/projects/Trove.js';
-import ToDoList from './pages/CodePage/projects/ToDoList.js';
-import Portfolio from './pages/CodePage/projects/Portfolio.js';
+import Trove from "./pages/CodePage/projects/Trove.js";
+import ToDoList from "./pages/CodePage/projects/ToDoList.js";
+import Portfolio from "./pages/CodePage/projects/Portfolio.js";
+import Hobï from "./pages/CodePage/projects/Hobï.js";
 
 // App component
 export default function App() {
@@ -49,6 +50,7 @@ export default function App() {
         <Route path="/code/trove" element={<Trove />}></Route>
         <Route path="/code/to-do-list" element={<ToDoList />}></Route>
         <Route path="/code/portfolio" element={<Portfolio />}></Route>
+        <Route path="/code/hobï" element={<Hobï />}></Route>
         <Route path="/design" element={<DesignPage />}></Route>
         <Route path="/design/mammals-moo" element={<MammalsMoo />}></Route>
         <Route path="/design/cktrl-robyn" element={<CktrlRobyn />}></Route>

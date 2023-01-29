@@ -1,7 +1,7 @@
 // Description: This component is used to display the creative stack of technologies I use
 
 // Imports
-import React from 'react';
+import React from "react";
 import {
   SiMiro,
   SiFigma,
@@ -29,7 +29,8 @@ import {
   SiJest,
   SiCypress,
   SiTestinglibrary,
-} from 'react-icons/si';
+  SiMongodb,
+} from "react-icons/si";
 
 // Exports
 export function Miro() {
@@ -262,6 +263,15 @@ export function TestingLibrary() {
     <li className="prevent-select flex items-center rounded-full border border-black p-1 font-head text-xs font-medium hover:bg-orange-500">
       <SiTestinglibrary className="pr-1 text-lg" />
       TESTING LIBRARY
+    </li>
+  );
+}
+
+export function MongoDb() {
+  return (
+    <li className="prevent-select flex items-center rounded-full border border-black p-1 font-head text-xs font-medium hover:bg-yellow-500">
+      <SiMongodb className="pr-1 text-lg" />
+      Mongo DB
     </li>
   );
 }
