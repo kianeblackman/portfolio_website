@@ -21,12 +21,12 @@ export default function CodePage() {
         <Link to="/code/">
           <ProjectCard title="To Do List" src="/images/to-do-list-cover.jpg" />
         </Link>
-        {/* <Link to="/code/">
+        <Link to="/code/portfolio">
           <ProjectCard
             title="How Long Until"
-            src="/images/how-long-until-cover.jpg"
+            src="/images/portfolio-cover.jpg"
           />
-        </Link> */}
+        </Link>
       </ul>
     </section>
   );
