@@ -1,7 +1,7 @@
 //* Description: this is a custom component card that renders projects on the project pages
 
 // Import statements
-import React from 'react';
+import React from "react";
 
 // Component types
 interface ProjectCardProps {

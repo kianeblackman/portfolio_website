@@ -6,8 +6,8 @@ import React from "react";
 // Project component
 export default function WreckedCare() {
   return (
-    <div className="xs:w-3/4 w-full p-6 pt-16">
-      <h1 className="my-3 font-head text-4xl font-bold text-black md:text-7xl">
+    <div className="mx-6 mb-6 mt-16 md:w-3/4">
+      <h1 className="my-3 font-head text-4xl font-bold text-black md:text-6xl">
         CMAT - 2 Wrecked 2 Care
       </h1>
       <h2 className="text-1xl my-3 font-body font-light md:text-2xl">
