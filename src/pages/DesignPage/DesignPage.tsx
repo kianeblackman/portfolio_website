@@ -11,7 +11,7 @@ import ProjectCard from "../../components/ProjectCard";
 export default function DesignPage() {
   return (
     <section>
-      <ul className="mx-6 mb-6 mt-20 grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
+      <ul className="mx-6 mb-6 mt-20 grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
         <Link to="/design/">
           <ProjectCard
             title="Mammals Moo"
