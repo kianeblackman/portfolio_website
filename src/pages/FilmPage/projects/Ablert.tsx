@@ -1,16 +1,16 @@
-// Description: Ablert project page
+//* Description: Ablert project page
 
-// Imports
-import React from 'react';
+// Import statements
+import React from "react";
 
 // Project component
 export default function Ablert() {
   return (
-    <div className="w-full p-6 pt-16 xs:w-1/2">
-      <h1 className="font-head text-4xl font-bold text-neutral-800 xs:text-7xl">
+    <div className="xs:w-1/2 w-full p-6 pt-16">
+      <h1 className="xs:text-7xl font-head text-4xl font-bold text-neutral-800">
         & Albert
       </h1>
-      <h2 className="text-2xl xs:text-3xl">
+      <h2 className="xs:text-3xl text-2xl">
         After a full day knocking on the doors of strangers and asking them if
         we could photograph their junk drawers for a photo-series, myself and
         some friends were invited into an unregarding mans home who said he had

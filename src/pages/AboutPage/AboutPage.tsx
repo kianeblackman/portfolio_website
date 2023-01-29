@@ -1,28 +1,28 @@
 //* Description: About page
 
 // Import statements
-import React from 'react';
-import * as Icon from '../../utils/TecStackIcons';
+import React from "react";
+import * as Icon from "../../utils/TecStackIcons";
 
 // AboutPage component
 export default function AboutPage() {
   return (
     <main className="mx-6 mt-12 grid md:grid-cols-1 lg:grid-cols-2">
       <section>
-        <h1 className="mb-3 font-head text-4xl font-bold text-black lg:text-6xl">
+        <h1 className="mx-6 mt-12 mb-3 font-head text-4xl font-bold text-black lg:text-6xl">
           Hello, I'm Kiane Blackman
         </h1>
         <h2 className="text-1xl my-3 font-body font-light lg:text-2xl">
-          I'm a{' '}
+          I'm a{" "}
           <span className="rounded-full border border-black bg-orange-400 px-2 text-black">
             developer
-          </span>{' '}
+          </span>{" "}
           <span className="rounded-full border border-black bg-blue-500 px-2 text-black">
             designer
-          </span>{' '}
+          </span>{" "}
           <span className="rounded-full border border-black bg-pink-400 px-2 text-black">
             filmmaker
-          </span>{' '}
+          </span>{" "}
           and all round a pretty creative fellah. Welcome to my portfolio. Grab
           a drink or a snack, take your time and enjoy!
         </h2>
@@ -134,13 +134,13 @@ export default function AboutPage() {
           </h2>
           <ul className="text-1xl my-3 font-body">
             <li>
-              ➤ Email || {''}
+              ➤ Email || {""}
               <a href="mailto: kianeblackman@gmail.com">
                 kianeblackman@gmail.com
               </a>
             </li>
             <li>
-              ➤ GitHub || {''}
+              ➤ GitHub || {""}
               <a href="https://github.com/kianeblackman">@kianeblackman</a>
             </li>
           </ul>
