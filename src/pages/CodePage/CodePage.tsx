@@ -15,9 +15,9 @@ export default function CodePage() {
         <Link to="/code/hobï">
           <ProjectCard title="Hobï" src="/images/hobï-cover.jpg" />
         </Link>
-        <Link to="/code/sandbox">
+        {/* <Link to="/code/sandbox">
           <ProjectCard title="Sandbox" src="/images/sandbox-cover.jpg" />
-        </Link>
+        </Link> */}
         <Link to="/code/">
           <ProjectCard title="To Do List" src="/images/to-do-list-cover.jpg" />
         </Link>

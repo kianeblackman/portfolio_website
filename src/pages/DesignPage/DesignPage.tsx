@@ -12,13 +12,13 @@ export default function DesignPage() {
   return (
     <section>
       <ul className="mx-6 mb-6 mt-20 grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
-        <Link to="/design/">
+        <Link to="/design/mammals-moo">
           <ProjectCard
             title="Mammals Moo"
             src="/images/mammals-moo-cover.jpg"
           />
         </Link>
-        <Link to="/design/">
+        <Link to="/design/cktrl-robyn">
           <ProjectCard
             title="cktrl - Robyn"
             src="/images/cktrl-robyn-cover.jpg"

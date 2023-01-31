@@ -15,11 +15,11 @@ export default function StrawsSuck() {
         straws.
       </h2>
       <p className="text-1xl my-3 font-body font-light md:w-3/4">
-        Only 1% of refugees gain access to the UK and so teaming up with Amnesty
-        International we asked members of the public to place themselves in the
-        shoes of that 1%. By rolling two large dice, with 5 yellow sides and 1
-        black side, with the aim of matching the two black sides. Out of 140
-        people, no one matched.
+        Straws suck. Get ready to say "NO!" to single-use plastic straws! Our
+        planet and marine life are in peril and it's time to take action. In
+        this short ad campaign we aim to raise awareness about how scary
+        single-use plastic straws truly are. So join us and switch to a reusable
+        alternative. Your taste buds and Mother Nature will thank you.
       </p>
       <iframe
         className="aspect-video w-full"
