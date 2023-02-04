@@ -3,6 +3,7 @@
 // Import statements
 import React from "react";
 import * as Icon from "../../../utils/TecStackIcons";
+import { SiGithub } from "react-icons/si";
 
 // Project component
 export default function Hobï() {
@@ -11,13 +12,30 @@ export default function Hobï() {
       <h1 className="my-3 font-head text-4xl font-bold text-black md:text-6xl">
         Hobï
       </h1>
-      <h2 className="text-1xl my-3 font-body font-light md:text-2xl">
+      <h2 className="my-3 font-body text-xl font-light md:text-2xl">
         A community app where you can learn and teach new skills and hobbies.
       </h2>
-      <p className="text-1xl my-3 font-body font-light md:w-3/4">
+      <p className="my-3 font-body font-light md:w-3/4">
         Struggling to learn a new skill? Want to get more people involved in
         your hobby? Hobï lets your connect with your local community to learn
         and teach new skills and hobbies.
+      </p>
+      <p className="my-3 font-body text-xl font-light md:w-3/4">
+        View the app{" "}
+        <a
+          href="https://main.d2wcmuqqs91fni.amplifyapp.com/"
+          className="underline"
+        >
+          here
+        </a>{" "}
+        or check out the code on{" "}
+        <a
+          href="https://github.com/SchoolOfCode/bc13_final-project_front-end-zen-coders"
+          className="underline"
+        >
+          GitHub
+        </a>
+        .
       </p>
       <h2 className="font-regular my-3 font-head text-2xl underline decoration-wavy underline-offset-auto">
         App Journey
@@ -57,7 +75,7 @@ export default function Hobï() {
           use MongoDB as our database due to its high performance and
           flexibility.
         </p>
-        <ul className="my-3 flex flex-wrap gap-3">
+        <ul className="my-3 flex flex-wrap gap-3 md:w-3/4">
           <Icon.Javascript />
           <Icon.ReactJs />
           <Icon.NextJs />
