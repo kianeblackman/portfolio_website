@@ -30,6 +30,7 @@ import {
   SiCypress,
   SiTestinglibrary,
   SiMongodb,
+  SiAuth0,
 } from "react-icons/si";
 
 // Exports
@@ -38,6 +39,15 @@ export function Miro() {
     <li className="prevent-select flex items-center rounded-full border border-black p-1 font-head text-xs font-medium hover:bg-yellow-500">
       <SiMiro className="pr-1 text-lg" />
       MIRO
+    </li>
+  );
+}
+
+export function Auth0() {
+  return (
+    <li className="prevent-select flex items-center rounded-full border border-black p-1 font-head text-xs font-medium hover:bg-green-500">
+      <SiAuth0 className="pr-1 text-lg" />
+      Auth0
     </li>
   );
 }
