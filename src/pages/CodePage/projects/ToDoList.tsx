@@ -1,5 +1,17 @@
-import React from 'react';
+//* Description: To-do List project page
 
-export default function Project4() {
-  return <div>Project 4</div>;
+// Import statements
+import React from "react";
+
+export default function ToDoList() {
+  return (
+    <div className="mx-6 mb-6 mt-16 md:w-3/4">
+      <h1 className="my-3 font-head text-4xl font-bold text-black md:text-6xl">
+        To-do List
+      </h1>
+      <h2 className="my-3 font-body text-xl font-light md:text-2xl">
+        Page being built...
+      </h2>
+    </div>
+  );
 }

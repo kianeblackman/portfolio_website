@@ -20,7 +20,7 @@ export default function MammalsMoo() {
         own stories. Mammals Moo issue one is the first book in a series of
         short story collections both written and designed by me.
       </p>
-      <div>
+      <div className="md:w-3/4">
         <img src="/images/mammals-moo-front-back.jpg" />
         <img src="/images/mammals-moo-chicken-end.jpg" />
         <img src="/images/mammals-moo-pig-page.jpg" />

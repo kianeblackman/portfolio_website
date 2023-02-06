@@ -24,25 +24,25 @@ export default function DesignPage() {
             src="/images/cktrl-robyn-cover.jpg"
           />
         </Link>
-        <Link to="/design/">
+        <Link to="/design/media-planet">
           <ProjectCard
             title="Media Planet"
             src="/images/media-planet-cover.jpg"
           />
         </Link>
-        <Link to="/design/">
+        <Link to="/design/kingston-graphics-weekend">
           <ProjectCard
             title="Kingston Graphics Weekend"
-            src="/images/kingston-graphics-weekend-cover.jpg"
+            src="/images/kingston-graphics-weekend/kingston-graphics-weekend-cover.jpg"
           />
         </Link>
-        <Link to="/design/">
+        <Link to="/design/toilet-roll-roll">
           <ProjectCard
             title="Toilet Roll Roll"
             src="/images/toilet-roll-roll-cover.jpg"
           />
         </Link>
-        <Link to="/design/">
+        <Link to="/design/rooted-and-booted">
           <ProjectCard
             title="Rooted and Booted"
             src="/images/rooted-and-booted-cover.jpg"

@@ -1,4 +1,4 @@
-//* Description: Hobï project page
+//* Description: Hobi project page
 
 // Import statements
 import React from "react";
@@ -6,7 +6,7 @@ import * as Icon from "../../../utils/TecStackIcons";
 import { SiGithub } from "react-icons/si";
 
 // Project component
-export default function Hobï() {
+export default function Hobi() {
   return (
     <div className="mx-6 mb-6 mt-16 md:w-3/4">
       <h1 className="my-3 font-head text-4xl font-bold text-black md:text-6xl">
