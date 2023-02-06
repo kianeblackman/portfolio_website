@@ -2,6 +2,7 @@
 
 // Import statements
 import React from "react";
+import * as Icon from "../../../utils/TecStackIcons";
 
 export default function ToDoList() {
   return (
@@ -32,6 +33,21 @@ export default function ToDoList() {
         alt="app demo GIF"
         className="md:w-3/4"
       />
+      <h2 className="font-regular my-3 font-head text-2xl underline decoration-wavy underline-offset-auto">
+        Tec Stack
+      </h2>
+      <p className="text-1xl my-3 font-body font-light md:w-3/4">
+        The app was my first introduction into React, and I used it to learn the
+        basics of state management and component design.
+      </p>
+      <ul className="my-3 flex flex-wrap gap-3 md:w-3/4">
+        <Icon.Javascript />
+        <Icon.ReactJs />
+        <Icon.Css />
+      </ul>
+      <h3 className="font-regular my-3 font-head text-2xl underline decoration-wavy underline-offset-auto">
+        Additional features
+      </h3>
       <p className="my-3 font-body font-light md:w-3/4">
         The app was developed early in my coding journey, and I am currently
         working on a new version of the app that will be more user-friendly and
