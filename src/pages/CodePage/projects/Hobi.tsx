@@ -54,9 +54,9 @@ export default function Hobi() {
         possible, ensuring that the app was easy to navigate.
       </p>
       <div className="grid gap-6 sm:grid-cols-1 md:w-3/4 md:grid-cols-3">
-        <img src="/images/hobï-fi-1.jpg" />
-        <img src="/images/hobï-fi-2.jpg" />
-        <img src="/images/hobï-fi-3.jpg" />
+        <img src="/images/hobi/hobi-fi-1.jpg" />
+        <img src="/images/hobi/hobi-fi-2.jpg" />
+        <img src="/images/hobi/hobi-fi-3.jpg" />
       </div>
       <div>
         <h2 className="font-regular my-3 font-head text-2xl underline decoration-wavy underline-offset-auto">
