@@ -10,9 +10,6 @@ export default function HowLongUntil() {
         How Long Until
       </h1>
       <h2 className="my-3 font-body text-xl font-light md:text-2xl">
-        Page in build...
-      </h2>
-      {/* <h2 className="my-3 font-body text-xl font-light md:text-2xl">
         An app that calculates the time remaining until a user-specified date in
         days, hours, minutes, and seconds.
       </h2>
@@ -28,7 +25,10 @@ export default function HowLongUntil() {
         to add additional features such as creating your own account and
         managing a list of events, How Long Until will be your go-to source for
         event counting down.
-      </p> */}
+      </p>
+      <h2 className="my-3 font-body text-xl font-light md:text-2xl">
+        Rest of page in build...
+      </h2>
     </div>
   );
 }
