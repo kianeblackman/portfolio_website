@@ -32,30 +32,30 @@ export default function AboutPage() {
           </h2>
           <div className="text-1xl my-3 font-body">
             <p className="my-3">
-              I've always loved problem solving. It's been the common thread
+              I've always loved problem-solving. It's been the common thread
               throughout all of the different career paths I've taken. I enjoy
-              trying things I've never tried before, jumping into projects and
+              trying things I've never tried before, jumping into projects, and
               taking no issue in making mistakes.
             </p>
             <p className="my-3">
-              Here's a GIF of me lituraly jumping into something I'd only been
-              learning for an hour:
+              Here's a GIF of me jumping into something I'd only been learning
+              for an hour:
             </p>
             <img src="/images/about-page.gif" className="my-3 w-full" />
             <p className="my-3">
               If you're not convinced by that, in September 2022 I took another
-              jump into something that I'd been wanting to tackel for years,
-              coding. Throughout my different careers I've been interested in
-              learning how to code but lack of time and fear of wasted time was
-              a constant barrier faced.
-            </p>
-            <p className="my-3">
+              jump into something that I'd wanted to tackle for years, coding.
               After setting up a gardening business in January 2022 I was given
               a window in the winter period to set my tools aside and embarked
-              on a journey into code through the School of Code bootcamp. Out of
-              2000 applications, a rigorous interview process and the most
-              intense 16 weeks of my life I can readily say that I'm feeling
-              more than ready to begin a new career as a Software Developer.
+              on a journey into code through the School of Code Bootcamp.
+            </p>
+            <p className="my-3">
+              Through this, I have gained a strong foundation in front-end
+              development and a passion for creating visually appealing and
+              user-friendly websites. With my background in graphic design, I
+              bring a unique perspective and attention to detail to my coding
+              projects. I am eager to apply my skills and continue learning in a
+              dynamic and collaborative work environment.
             </p>
           </div>
         </section>
