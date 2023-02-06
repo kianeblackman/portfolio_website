@@ -38,8 +38,31 @@ export default function Hobi() {
         .
       </p>
       <h2 className="font-regular my-3 font-head text-2xl underline decoration-wavy underline-offset-auto">
+        Final Presentation
+      </h2>
+      <iframe
+        className="aspect-video w-full md:w-3/4"
+        src="https://www.youtube.com/embed/geaa1Okj7a0"
+      ></iframe>
+      <h2 className="font-regular my-3 font-head text-2xl underline decoration-wavy underline-offset-auto">
         App Journey
       </h2>
+      <p className="text-1xl my-3 font-body font-light md:w-3/4">
+        The brief for this project was simple, in a team of 6 create an app in
+        four weeks that solves a problem. We began by brainstorming ideas and we
+        eventually decided to create an app that would connect hobby enthusiasts
+        with each other, enabling them to share their passions, learn new
+        skills, and build relationships with like-minded individuals.
+      </p>
+      <p className="text-1xl my-3 font-body font-light md:w-3/4">
+        Over the next few weeks, the team worked tirelessly, dividing the tasks
+        and using agile methodologies to ensure that the project was moving
+        forward efficiently. Each team member brought their unique skills and
+        experience to the table, which resulted in a well-rounded and
+        comprehensive solution. By the end of the fourth week, the team had
+        successfully completed the project, delivering a polished and functional
+        application.
+      </p>
       <h3 className="font-regular my-3 font-head text-2xl underline decoration-wavy underline-offset-auto">
         Design
       </h3>
@@ -53,11 +76,11 @@ export default function Hobi() {
         When designing our wireframes we made sure to include as few shapes as
         possible, ensuring that the app was easy to navigate.
       </p>
-      <div className="grid gap-6 sm:grid-cols-1 md:w-3/4 md:grid-cols-3">
+      <div className="grid gap-6 sm:grid-cols-1 md:w-3/4 md:grid-cols-2">
         <img src="/images/hobi/hobi-fi-1.jpg" />
         <img src="/images/hobi/hobi-fi-2.jpg" />
-        <img src="/images/hobi/hobi-fi-3.jpg" />
       </div>
+      <img src="/images/hobi/hobi-fi-3.jpg" className="my-6 md:w-3/4" />
       <div>
         <h2 className="font-regular my-3 font-head text-2xl underline decoration-wavy underline-offset-auto">
           Tec Stack
@@ -85,13 +108,33 @@ export default function Hobi() {
           <Icon.Jest />
         </ul>
       </div>
-      <h2 className="font-regular my-3 font-head text-2xl underline decoration-wavy underline-offset-auto">
-        Final Presentation
-      </h2>
-      <iframe
-        className="aspect-video w-full md:w-3/4"
-        src="https://www.youtube.com/embed/geaa1Okj7a0"
-      ></iframe>
+      <h3 className="font-regular my-3 font-head text-2xl underline decoration-wavy underline-offset-auto">
+        Additional features
+      </h3>
+      <p className="text-1xl my-3 font-body font-light md:w-3/4">
+        Due to the short deadline of only 4 weeks, we had to ensure that we were
+        able to deliver a functioning MVP. This meant that key features that we
+        wanted to bring to our app had to be shelved to meet the deadline.
+      </p>
+      <p className="text-1xl my-3 font-body font-light md:w-3/4">
+        Our app in still in production and these are just some of the additional
+        features we'd like to add.
+        <ol>
+          <li className="m-3">
+            - Rating: giving users the ability to rate Skill Sharers.
+          </li>
+          <li className="m-3">
+            - In App Comunication: making sure that we keep users within the app
+            we want to include in app messaging for Users and Sharers to contact
+            one and other.
+          </li>
+          <li className="m-3">
+            - Filtering: expand our filtering to include location filtering,
+            implementing map functionality so that users would be able to search
+            specifically in the areas of interest.
+          </li>
+        </ol>
+      </p>
     </div>
   );
 }
