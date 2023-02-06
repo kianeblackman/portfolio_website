@@ -2,6 +2,7 @@
 
 // Import statements
 import React from "react";
+import * as Icon from "../../../utils/TecStackIcons";
 
 export default function HowLongUntil() {
   return (
@@ -26,6 +27,19 @@ export default function HowLongUntil() {
         managing a list of events, How Long Until will be your go-to source for
         event counting down.
       </p>
+      <h2 className="font-regular my-3 font-head text-2xl underline decoration-wavy underline-offset-auto">
+        Tec Stack
+      </h2>
+      <p className="text-1xl my-3 font-body font-light md:w-3/4">
+        My first side project created early in my journey as a developer. The
+        app was made before I was introduced into Frameworks such as React and
+        so is built using vanilla JavaScript and HTML/CSS.
+      </p>
+      <ul className="my-3 flex flex-wrap gap-3 md:w-3/4">
+        <Icon.Html />
+        <Icon.Javascript />
+        <Icon.Css />
+      </ul>
       <h2 className="my-3 font-body text-xl font-light md:text-2xl">
         Rest of page in build...
       </h2>
