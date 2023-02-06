@@ -34,10 +34,10 @@ import TakeAChance from "./pages/FilmPage/projects/TakeAChance.js";
 import Jargogle from "./pages/FilmPage/projects/Jargogle.js";
 
 // Code project imports
-import Trove from "./pages/CodePage/projects/Trove.js";
 import ToDoList from "./pages/CodePage/projects/ToDoList.js";
 import Portfolio from "./pages/CodePage/projects/Portfolio.js";
-import Hobï from "./pages/CodePage/projects/Hobï.js";
+import Hobi from "./pages/CodePage/projects/Hobi.js";
+import HowLongUntil from "./pages/CodePage/projects/HowLongUntil";
 
 // App component
 export default function App() {
@@ -47,10 +47,10 @@ export default function App() {
       <Routes>
         <Route path="/" element={<AboutPage />}></Route>
         <Route path="/code" element={<CodePage />}></Route>
-        <Route path="/code/trove" element={<Trove />}></Route>
         <Route path="/code/to-do-list" element={<ToDoList />}></Route>
         <Route path="/code/portfolio" element={<Portfolio />}></Route>
-        <Route path="/code/hobï" element={<Hobï />}></Route>
+        <Route path="/code/hobi" element={<Hobi />}></Route>
+        <Route path="/code/how-long-until" element={<HowLongUntil />}></Route>
         <Route path="/design" element={<DesignPage />}></Route>
         <Route path="/design/mammals-moo" element={<MammalsMoo />}></Route>
         <Route path="/design/cktrl-robyn" element={<CktrlRobyn />}></Route>
