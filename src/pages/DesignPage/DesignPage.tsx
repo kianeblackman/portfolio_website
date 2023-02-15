@@ -1,51 +1,51 @@
 //* Description: this page lists all the design projects
 
 // Statement imports
-import React from "react";
-import { Link } from "react-router-dom";
+import React from 'react';
+import { Link } from 'react-router-dom';
 
 // Commponent imports
-import ProjectCard from "../../components/ProjectCard";
+import ProjectCard from '../../components/ProjectCard';
 
 // Page component
 export default function DesignPage() {
   return (
     <section>
-      <ul className="mx-6 mb-6 mt-20 grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
-        <Link to="/design/mammals-moo">
+      <ul className='mx-6 mb-6 mt-20 grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4'>
+        <Link to='/design/media-planet'>
           <ProjectCard
-            title="Mammals Moo"
-            src="/images/mammals-moo-cover.jpg"
+            title='Media Planet'
+            src='/images/media-planet-cover.jpg'
           />
         </Link>
-        <Link to="/design/cktrl-robyn">
+        <Link to='/design/mammals-moo'>
           <ProjectCard
-            title="cktrl - Robyn"
-            src="/images/cktrl-robyn-cover.jpg"
+            title='Mammals Moo'
+            src='/images/mammals-moo-cover.jpg'
           />
         </Link>
-        <Link to="/design/media-planet">
+        <Link to='/design/cktrl-robyn'>
           <ProjectCard
-            title="Media Planet"
-            src="/images/media-planet-cover.jpg"
+            title='cktrl - Robyn'
+            src='/images/cktrl-robyn-cover.jpg'
           />
         </Link>
-        <Link to="/design/kingston-graphics-weekend">
+        <Link to='/design/kingston-graphics-weekend'>
           <ProjectCard
-            title="Kingston Graphics Weekend"
-            src="/images/kingston-graphics-weekend/kingston-graphics-weekend-cover.jpg"
+            title='Kingston Graphics Weekend'
+            src='/images/kingston-graphics-weekend/kingston-graphics-weekend-cover.jpg'
           />
         </Link>
-        <Link to="/design/toilet-roll-roll">
+        <Link to='/design/toilet-roll-roll'>
           <ProjectCard
-            title="Toilet Roll Roll"
-            src="/images/toilet-roll-roll-cover.jpg"
+            title='Toilet Roll Roll'
+            src='/images/toilet-roll-roll-cover.jpg'
           />
         </Link>
-        <Link to="/design/rooted-and-booted">
+        <Link to='/design/rooted-and-booted'>
           <ProjectCard
-            title="Rooted and Booted"
-            src="/images/rooted-and-booted-cover.jpg"
+            title='Rooted and Booted'
+            src='/images/rooted-and-booted-cover.jpg'
           />
         </Link>
       </ul>
