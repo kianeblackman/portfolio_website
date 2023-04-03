@@ -1,55 +1,55 @@
 //* Description: About page
 
 // Import statements
-import React from "react";
-import * as Icon from "../../utils/TecStackIcons";
+import React from 'react';
+import * as Icon from '../../utils/TecStackIcons';
 
 // AboutPage component
 export default function AboutPage() {
   return (
-    <main className="mx-6 mt-16 grid md:grid-cols-1 lg:grid-cols-2">
+    <main className='mx-6 mt-16 grid md:grid-cols-1 lg:grid-cols-2'>
       <section>
-        <h1 className="mb-3 font-head text-4xl font-bold text-black lg:text-6xl">
+        <h1 className='mb-3 font-head text-4xl font-bold text-black lg:text-6xl'>
           Hello, I'm Kiane Blackman
         </h1>
-        <h2 className="text-1xl my-3 font-body font-light lg:text-2xl">
-          I'm a{" "}
-          <span className="rounded-full border border-black bg-orange-400 px-2 text-black">
+        <h2 className='text-1xl my-3 font-body font-light lg:text-2xl'>
+          I'm a{' '}
+          <span className='rounded-full border border-black bg-orange-400 px-2 text-black'>
             developer
-          </span>{" "}
-          <span className="rounded-full border border-black bg-blue-500 px-2 text-black">
+          </span>{' '}
+          <span className='rounded-full border border-black bg-blue-500 px-2 text-black'>
             designer
-          </span>{" "}
-          <span className="rounded-full border border-black bg-pink-400 px-2 text-black">
+          </span>{' '}
+          <span className='rounded-full border border-black bg-pink-400 px-2 text-black'>
             filmmaker
-          </span>{" "}
+          </span>{' '}
           and all round a pretty creative fellah. Welcome to my portfolio. Grab
           a drink or a snack, take your time and enjoy!
         </h2>
         <section>
-          <h2 className="font-regular my-3 font-head text-2xl underline decoration-wavy underline-offset-auto">
+          <h2 className='font-regular my-3 font-head text-2xl underline decoration-wavy underline-offset-auto'>
             My story
           </h2>
-          <div className="text-1xl my-3 font-body">
-            <p className="my-3">
+          <div className='text-1xl my-3 font-body'>
+            <p className='my-3'>
               I've always loved problem-solving. It's been the common thread
               throughout all of the different career paths I've taken. I enjoy
               trying things I've never tried before, jumping into projects, and
               taking no issue in making mistakes.
             </p>
-            <p className="my-3">
+            <p className='my-3'>
               Here's a GIF of me jumping into something I'd only been learning
               for an hour:
             </p>
-            <img src="/images/about-page.gif" className="my-3 w-full" />
-            <p className="my-3">
-              If you're not convinced by that, in September 2022 I took another
+            <img src='/images/about-page.gif' className='my-3 w-full' />
+            <p className='my-3'>
+              If youre not convinced by that, in September 2022 I took another
               jump into something that I'd wanted to tackle for years, coding.
               After setting up a gardening business in January 2022 I was given
               a window in the winter period to set my tools aside and embarked
               on a journey into code through the School of Code Bootcamp.
             </p>
-            <p className="my-3">
+            <p className='my-3'>
               Through this, I have gained a strong foundation in front-end
               development and a passion for creating visually appealing and
               user-friendly websites. With my background in graphic design, I
@@ -60,10 +60,10 @@ export default function AboutPage() {
           </div>
         </section>
         <section>
-          <h2 className="font-regular my-3 font-head text-2xl underline decoration-wavy underline-offset-auto">
+          <h2 className='font-regular my-3 font-head text-2xl underline decoration-wavy underline-offset-auto'>
             Work
           </h2>
-          <ul className="text-1xl my-3 font-body">
+          <ul className='text-1xl my-3 font-body'>
             <li>➤ Business Owner || Rooted and Booted — Feb 2022-Present</li>
             <li>➤ Graphic Designer || Freelancer — 2015-Present</li>
             <li>➤ Gardener || The Dab Hand — 2019-Mar 2022</li>
@@ -80,10 +80,10 @@ export default function AboutPage() {
           </ul>
         </section>
         <section>
-          <h2 className="font-regular my-3 font-head text-2xl underline decoration-wavy underline-offset-auto">
+          <h2 className='font-regular my-3 font-head text-2xl underline decoration-wavy underline-offset-auto'>
             Education
           </h2>
-          <ul className="text-1xl my-3 font-body">
+          <ul className='text-1xl my-3 font-body'>
             <li>➤ Coding Bootcamp || School of Code — Oct 2022-Feb2023</li>
             <li>
               ➤ First Class, Graphic Design BA Hons || Kingston University —
@@ -96,10 +96,10 @@ export default function AboutPage() {
           </ul>
         </section>
         <div>
-          <h2 className="font-regular my-3 font-head text-2xl underline decoration-wavy underline-offset-auto">
+          <h2 className='font-regular my-3 font-head text-2xl underline decoration-wavy underline-offset-auto'>
             Tec Stack
           </h2>
-          <ul className="my-3 flex flex-wrap gap-3">
+          <ul className='my-3 flex flex-wrap gap-3'>
             <Icon.Javascript />
             <Icon.Typescript />
             <Icon.Html />
@@ -129,24 +129,24 @@ export default function AboutPage() {
           </ul>
         </div>
         <section>
-          <h2 className="font-regular my-3 font-head text-2xl underline decoration-wavy underline-offset-auto">
+          <h2 className='font-regular my-3 font-head text-2xl underline decoration-wavy underline-offset-auto'>
             Contact
           </h2>
-          <ul className="text-1xl my-3 font-body">
+          <ul className='text-1xl my-3 font-body'>
             <li>
-              ➤ Email || {""}
-              <a href="mailto: kianeblackman@gmail.com">
+              ➤ Email || {''}
+              <a href='mailto: kianeblackman@gmail.com'>
                 kianeblackman@gmail.com
               </a>
             </li>
             <li>
-              ➤ GitHub || {""}
-              <a href="https://github.com/kianeblackman">@kianeblackman</a>
+              ➤ GitHub || {''}
+              <a href='https://github.com/kianeblackman'>@kianeblackman</a>
             </li>
           </ul>
         </section>
       </section>
-      <section className="ml-6"></section>
+      <section className='ml-6'></section>
     </main>
   );
 }
