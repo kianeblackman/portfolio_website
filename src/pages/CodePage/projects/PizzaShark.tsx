@@ -55,7 +55,7 @@ export default function ToDoList() {
       <img
         src='/images/pizza-shark/home.gif'
         alt='app demo GIF'
-        className='md:w-3/4'
+        className='md:w-3/4 border-2 border-black'
       />
       <p className='text-1xl my-3 font-body font-light md:w-3/4'>
         Dynamic label: A label that flies across the screen using keyframes,
@@ -71,7 +71,7 @@ export default function ToDoList() {
       <img
         src='/images/pizza-shark/menu.gif'
         alt='app demo GIF'
-        className='md:w-3/4'
+        className='md:w-3/4 border-2 border-black'
       />
       <p className='text-1xl my-3 font-body font-light md:w-3/4'>
         Menu page: A menu page that provides a comprehensive list of items for
