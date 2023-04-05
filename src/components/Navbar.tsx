@@ -1,50 +1,70 @@
-//* Description: This is the navbar component
+// Import Statements
+import React, { useState, useEffect } from 'react';
+import { NavLink } from 'react-router-dom';
 
-// Statement imports
-import React, { useState, useEffect } from "react";
-import { NavLink } from "react-router-dom";
-
-// Navbar component
 export default function Navbar() {
-  // Set's the default state background colour
-  const [color, setColour] = useState("#FFFBEB");
+  // State to keep track of which item is active and to set the background color
+  const [activeItem, setActiveItem] = useState('ABOUT');
+  const [color, setColor] = useState('#FFFBEB');
 
-  // Set's the background colour to the colour stored in local storage on page refresh
+  // Set the background color from localStorage when the component mounts
   useEffect(() => {
-    const data = localStorage.getItem("my-background-colour");
+    const data = localStorage.getItem('my-background-color');
     if (data) {
-      setColour(data);
+      setColor(data);
     }
   }, []);
 
-  // Sets the background colour to the colour passed in
-  let lsColour = (document.body.style.backgroundColor = color);
-
-  // Stores the last set background colour in local storage
+  // Set the background color and save it to localStorage whenever it changes
   useEffect(() => {
-    localStorage.setItem("my-background-colour", lsColour);
-  });
+    document.body.style.backgroundColor = color;
+    localStorage.setItem('my-background-color', color);
+  }, [color]);
+
+  // Function to handle when a list item is clicked
+  function handleClick(item) {
+    // Set the active item and reset the background color to default
+    setActiveItem(item);
+    setColor('#FFFBEB');
+  }
 
   return (
-    <nav className="fixed top-0 z-10 grid h-6 w-full grid-cols-4">
-      <li className="navbar-li bg-yellow-50">
-        <NavLink to="/" onClick={() => setColour("#FFFBEB")}>
-          <a className="navbar-a">ABOUT</a>
+    <nav className='fixed top-0 z-10 grid h-6 w-full grid-cols-4'>
+      <li
+        className={`navbar-li ${
+          activeItem === 'ABOUT' ? 'bg-yellow-50' : 'bg-yellow-500'
+        }`}
+      >
+        <NavLink to='/' onClick={() => handleClick('ABOUT')}>
+          <a className='navbar-a'>ABOUT</a>
         </NavLink>
       </li>
-      <li className="navbar-li bg-orange-400">
-        <NavLink to="/code" onClick={() => setColour("#FB923C")}>
-          <a className="navbar-a">CODE</a>
+      <li
+        className={`navbar-li ${
+          activeItem === 'CODE' ? 'bg-yellow-50' : 'bg-orange-400'
+        }`}
+        /*  sets the class name of a navigation list item based on whether or not it's the active item. If it's the active item, it gets the "bg-yellow-50" class, otherwise it gets the "bg-orange-400" class. */
+      >
+        <NavLink to='/code' onClick={() => handleClick('CODE')}>
+          <a className='navbar-a'>CODE</a>
         </NavLink>
       </li>
-      <li className="navbar-li bg-blue-500">
-        <NavLink to="/design" onClick={() => setColour("#3B82F6")}>
-          <a className="navbar-a">DESIGN</a>
+      <li
+        className={`navbar-li ${
+          activeItem === 'DESIGN' ? 'bg-yellow-50' : 'bg-blue-500'
+        }`}
+      >
+        <NavLink to='/design' onClick={() => handleClick('DESIGN')}>
+          <a className='navbar-a'>DESIGN</a>
         </NavLink>
       </li>
-      <li className="navbar-li bg-pink-400">
-        <NavLink to="/film" onClick={() => setColour("#F472B6")}>
-          <a className="navbar-a">FILM</a>
+      <li
+        className={`navbar-li ${
+          activeItem === 'FILM' ? 'bg-yellow-50' : 'bg-pink-400'
+        }`}
+      >
+        <NavLink to='/film' onClick={() => handleClick('FILM')}>
+          <a className='navbar-a'>FILM</a>
         </NavLink>
       </li>
     </nav>
