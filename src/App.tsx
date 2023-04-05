@@ -34,6 +34,7 @@ import TakeAChance from "./pages/FilmPage/projects/TakeAChance.js";
 import Jargogle from "./pages/FilmPage/projects/Jargogle.js";
 
 // Code project imports
+import PizzaShark from "./pages/CodePage/projects/PizzaShark.js";
 import ToDoList from "./pages/CodePage/projects/ToDoList.js";
 import Portfolio from "./pages/CodePage/projects/Portfolio.js";
 import Hobi from "./pages/CodePage/projects/Hobi.js";
@@ -47,6 +48,7 @@ export default function App() {
       <Routes>
         <Route path="/" element={<AboutPage />}></Route>
         <Route path="/code" element={<CodePage />}></Route>
+        <Route path="/code/pizza-shark" element={<PizzaShark />}></Route>
         <Route path="/code/to-do-list" element={<ToDoList />}></Route>
         <Route path="/code/portfolio" element={<Portfolio />}></Route>
         <Route path="/code/hobi" element={<Hobi />}></Route>

@@ -12,6 +12,9 @@ export default function CodePage() {
   return (
     <section>
       <ul className="mx-6 mb-6 mt-20 grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
+      <Link to="/code/pizza-shark">
+          <ProjectCard title="Pizza Shark" src="/images/hobi/hobi-cover.jpg" />
+        </Link>
         <Link to="/code/hobi">
           <ProjectCard title="Hobï" src="/images/hobi/hobi-cover.jpg" />
         </Link>
