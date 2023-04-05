@@ -7,9 +7,9 @@ import * as Icon from '../../utils/TecStackIcons';
 // AboutPage component
 export default function AboutPage() {
   return (
-    <main className='mx-6 mt-16 grid md:grid-cols-1 lg:grid-cols-2'>
+    <main className='px-6 pt-16 grid pd:grid-cols-1 lg:grid-cols-2 bg-yellow-50'>
       <section>
-        <h1 className='mb-3 font-head text-4xl font-bold text-black lg:text-6xl'>
+        <h1 className='font-head text-4xl font-bold text-black lg:text-6xl'>
           Hello, I'm Kiane Blackman
         </h1>
         <h2 className='text-1xl my-3 font-body font-light lg:text-2xl'>
